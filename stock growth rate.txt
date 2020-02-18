@@ -1,0 +1,957 @@
+Alcoa Corp[AA]: : 37.60695 -> 15.67 = -58.33216998453743% growth rate
+
+American Airlines Group Inc[AAL]: : 49.08 -> 29.2 = -40.50529747351263% growth rate
+
+Advance Auto Parts Inc[AAP]: : 159.0 -> 133.565 = -15.99685534591195% growth rate
+
+Apple Inc[AAPL]: : 117.16 -> 324.95001 = 177.35576135199727% growth rate
+
+AbbVie Inc[ABBV]: : 60.35 -> 94.03 = 55.807787903893946% growth rate
+
+AmerisourceBergen Corp[ABC]: : 95.05 -> 94.35 = -0.7364544976328279% growth rate
+
+Asbury Automotive Group Inc[ABG]: Failed to Obtain Data
+
+ABM Industries Inc[ABM]: : 28.87 -> 38.87 = 34.63803255975059% growth rate
+
+Abbott Laboratories[ABT]: : 44.76 -> 89.65 = 100.29043789097412% growth rate
+
+AECOM[ACM]: : 25.42 -> 47.79 = 88.00157356412272% growth rate
+
+Alliance Data Systems Corp[ADS]: : 288.82999 -> 102.87 = -64.38389240674073% growth rate
+
+Ameren Corp[AEE]: : 45.28 -> 86.82 = 91.74028268551234% growth rate
+
+American Electric Power Co Inc[AEP]: Failed to Obtain Data
+
+AES Corp-VA[AES]: : 12.22 -> 20.94 = 71.35842880523732% growth rate
+
+American Financial Group Inc-OH[AFG]: : 58.04 -> 112.77 = 94.29703652653342% growth rate
+
+Aflac Inc[AFL]: : 28.54 -> 52.81 = 85.03854239663632% growth rate
+
+AGCO Corp[AGCO]: : 43.34 -> 66.76 = 54.03784033225657% growth rate
+
+AllianzGI Artificial Intelligence & Technology Opportunities Fund[AIO]: Failed to Obtain Data
+
+Assurant Inc[AIZ]: : 63.51 -> 142.52 = 124.40560541646988% growth rate
+
+AK Steel Holding Corp[AKS]: : 3.79 -> 2.94 = -22.427440633245386% growth rate
+
+Alaska Air Group Inc[ALK]: : 67.87 -> 66.08 = -2.637395019890977% growth rate
+
+Allstate Corp-The[ALL]: : 69.79 -> 125.58 = 79.93981945837511% growth rate
+
+Ally Financial Inc[ALLY]: : 18.71 -> 32.85 = 75.57455905932656% growth rate
+
+Autoliv Inc[ALV]: Failed to Obtain Data
+
+Applied Materials Inc[AMAT]: : 22.84 -> 66.85 = 192.6882661996497% growth rate
+
+Amgen Inc[AMGN]: : 152.25999 -> 223.46001 = 46.76213363733967% growth rate
+
+Ameriprise Financial Inc[AMP]: : 124.94 -> 178.83 = 43.13270369777494% growth rate
+
+A-Mark Precious Metals Inc[AMRK]: : 10.45 -> 8.72 = -16.555023923444963% growth rate
+
+American Tower Corp[AMT]: : 96.95 -> 256.23999 = 164.30117586384733% growth rate
+
+Amazon.com Inc[AMZN]: Failed to Obtain Data
+
+AutoNation Inc[AN]: : 59.62 -> 47.5 = -20.32874874203287% growth rate
+
+Anthem Inc[ANTM]: : 134.96001 -> 297.75 = 120.62090837130197% growth rate
+
+Apache Corp[APA]: : 62.57 -> 27.37 = -56.25699216877098% growth rate
+
+Anadarko Petroleum Corp[APC]: Failed to Obtain Data
+
+Air Products & Chemicals Inc[APD]: Failed to Obtain Data
+
+Amphenol Corp[APH]: : 53.71 -> 104.09 = 93.80003723701358% growth rate
+
+Aramark[ARMK]: : 31.32 -> 42.46 = 35.568326947637296% growth rate
+
+Arconic Inc[ARNC]: : 35.19488 -> 33.35 = -5.241898821646775% growth rate
+
+Arrow Electronics Inc[ARW]: : 55.04 -> 79.21 = 43.913517441860456% growth rate
+
+Ascena Retail Group Inc[ASNA]: : 11.56 -> 4.4 = -61.93771626297577% growth rate
+
+Activision Blizzard Inc[ATVI]: Failed to Obtain Data
+
+Avon Products Inc[AVP]: : 7.74 -> 5.6 = -27.648578811369518% growth rate
+
+Avnet Inc[AVT]: : 41.62 -> 36.37 = -12.614127823161942% growth rate
+
+Avery Dennison Corp[AVY]: : 52.27 -> 138.11 = 164.2242203941075% growth rate
+
+Anixter International Inc[AXE]: : 75.36 -> 98.27 = 30.40074309978768% growth rate
+
+American Express Co[AXP]: : 80.69 -> 135.86 = 68.37278473168921% growth rate
+
+AutoZone Inc[AZO]: Failed to Obtain Data
+
+Boeing Co-The[BA]: : 145.37 -> 340.53 = 134.25053312237736% growth rate
+
+BlackRock Municipal Income Investment Quality Trust[BAF]: : 15.02 -> 14.76 = -1.731025299600531% growth rate
+
+Booz Allen Hamilton Holding Corp[BAH]: : 29.11 -> 76.64 = 163.277224321539% growth rate
+
+Liberty Media Corp-Liberty Braves[BATRA]: Failed to Obtain Data
+
+Baxter International Inc[BAX]: : 38.1912 -> 93.13 = 143.85198684513708% growth rate
+
+Bed Bath & Beyond Inc[BBBY]: : 74.77 -> 11.18 = -85.0474789354019% growth rate
+
+BHP Group PLC[BBL]: : 43.69 -> 44.01 = 0.732433051041429% growth rate
+
+Best Buy Co Inc[BBY]: : 35.2 -> 90.27 = 156.4488636363636% growth rate
+
+ETRACS 2xLeveraged Long Wells Fargo Business Development Company Index ETN[BDCL]: : 20.0 -> 15.16 = -24.2% growth rate
+
+Becton Dickinson and Co[BDX]: : 138.08 -> 260.10999 = 88.37629634994202% growth rate
+
+Franklin Resources Inc[BEN]: : 51.53 -> 24.37 = -52.707160877158934% growth rate
+
+Berry Global Group Inc[BERY]: : 33.82 -> 41.925 = 23.965109402720273% growth rate
+
+Baker Hughes a GE Co[BHGE]: Failed to Obtain Data
+
+Big Lots Inc[BIG]: : 45.91 -> 25.71 = -43.99912873012415% growth rate
+
+Biogen Inc[BIIB]: : 389.16 -> 333.0 = -14.431082331174844% growth rate
+
+Bank of New York Mellon Corp-The[BK]: : 36.0 -> 45.9 = 27.499999999999996% growth rate
+
+Ballard Power Systems Inc[BLDP]: : 1.55 -> 11.36 = 632.9032258064515% growth rate
+
+Builders FirstSource Inc[BLDR]: : 5.92 -> 27.2 = 359.4594594594595% growth rate
+
+Bristol-Myers Squibb Co[BMY]: Failed to Obtain Data
+
+Berkshire Hathaway Inc[BRK.A]: : 215865.0 -> 340224.0 = 57.60961712181224% growth rate
+
+Boston Scientific Corp[BSX]: : 14.81 -> 42.29 = 185.55030384875081% growth rate
+
+BlackRock Municipal 2030 Target Term Trust[BTT]: : 21.59 -> 24.47 = 13.339509031959235% growth rate
+
+Burlington Stores Inc[BURL]: : 49.89 -> 245.77 = 392.6237722990579% growth rate
+
+BorgWarner Inc[BWA]: : 54.01 -> 34.14 = -36.78948342899463% growth rate
+
+Citigroup Inc[C]: Failed to Obtain Data
+
+Morgan Stanley China A Share Fund Inc[CAF]: : 29.2 -> 20.62 = -29.38356164383561% growth rate
+
+Conagra Brands Inc[CAG]: : 27.57199 -> 32.685 = 18.544218244675132% growth rate
+
+Cardinal Health Inc[CAH]: : 83.19 -> 59.62 = -28.332732299555236% growth rate
+
+Avis Budget Group Inc[CAR]: : 57.31 -> 41.3 = -27.93578782062468% growth rate
+
+Caterpillar Inc[CAT]: Failed to Obtain Data
+
+CBRE Group Inc[CBRE]: : 32.34 -> 63.93 = 97.68089053803337% growth rate
+
+CBS Corp[CBS]: Failed to Obtain Data
+
+Chemours Co-The[CC]: Failed to Obtain Data
+
+Coca-Cola European Partners PLC[CCEP]: : 42.1 -> 55.17 = 31.045130641330164% growth rate
+
+Crown Holdings Inc[CCK]: : 44.31 -> 79.95 = 80.43331076506432% growth rate
+
+CDW Corp-DE[CDW]: : 34.26 -> 138.33 = 303.7653239929948% growth rate
+
+Celanese Corp[CE]: : 53.76 -> 110.05 = 104.70610119047619% growth rate
+
+Celgene Corp[CELG]: Failed to Obtain Data
+
+Citizens Financial Group Inc[CFG]: : 23.9 -> 38.66 = 61.75732217573221% growth rate
+
+Chesapeake Energy Corp[CHK]: : 19.18 -> 0.4505 = -97.65119916579769% growth rate
+
+CHS Inc[CHSCL]: : 26.54 -> 29.3 = 10.399397136397896% growth rate
+
+Charter Communications Inc[CHTR]: : 151.12 -> 534.89001 = 253.9505095288512% growth rate
+
+Cigna Corp[CI]: : 106.83 -> 220.38 = 106.29036787419264% growth rate
+
+China Internet Nationwide Financial Services Inc[CIFS]: Failed to Obtain Data
+
+Cincinnati Financial Corp[CINF]: : 50.51 -> 115.21 = 128.09344684220946% growth rate
+
+Colgate-Palmolive Co[CL]: : 67.52 -> 76.68 = 13.56635071090049% growth rate
+
+Clorox Co-The[CLX]: : 106.71 -> 164.82001 = 54.45601162027926% growth rate
+
+Comcast Corp[CMCSA]: : 26.575 -> 46.09 = 73.43367826904988% growth rate
+
+Cummins Inc[CMI]: : 139.46001 -> 166.82001 = 19.618527203604806% growth rate
+
+CMS Energy Corp[CMS]: Failed to Obtain Data
+
+Centene Corp[CNC]: : 27.29 -> 64.9 = 137.81604983510448% growth rate
+
+Corning Natural Gas Holding Corporation[CNIG]: Failed to Obtain Data
+
+CenterPoint Energy Inc[CNP]: Failed to Obtain Data
+
+Capital One Financial Corp[COF]: : 73.21 -> 102.66 = 40.22674498019397% growth rate
+
+ConocoPhillips[COP]: : 62.98 -> 58.615 = -6.93077167354715% growth rate
+
+Core-Mark Holding Co Inc[CORE]: : 33.34 -> 23.7475 = -28.77174565086984% growth rate
+
+Costco Wholesale Corp[COST]: : 142.99001 -> 318.44 = 122.70087259942144% growth rate
+
+Campbell Soup Co[CPB]: : 45.74 -> 48.64 = 6.340183646698729% growth rate
+
+salesforce.com Inc[CRM]: Failed to Obtain Data
+
+Cisco Systems Inc[CSCO]: : 26.37 -> 46.97 = 78.11907470610541% growth rate
+
+CSX Corp[CSX]: : 33.3 -> 79.6 = 139.03903903903904% growth rate
+
+CenturyLink Inc[CTL]: : 37.17 -> 13.9 = -62.60425073984397% growth rate
+
+Cognizant Technology Solutions Corp[CTSH]: : 54.13 -> 68.45 = 26.454830962497688% growth rate
+
+CVS Health Corp[CVS]: : 98.16 -> 71.36 = -27.302363488182557% growth rate
+
+Chevron Corp[CVX]: Failed to Obtain Data
+
+Community Health Systems Inc[CYH]: : 38.90083 -> 4.72 = -87.86658279527713% growth rate
+
+Dominion Energy Inc[D]: : 76.89 -> 87.465 = 13.753413968006246% growth rate
+
+Danaos Corp[DAC]: : 68.6 -> 6.83 = -90.04373177842567% growth rate
+
+Delta Air Lines Inc[DAL]: : 47.31 -> 58.89 = 24.476854787571334% growth rate
+
+DuPont de Nemours Inc[DD]: : 64.27486 -> 53.08 = -17.417167458630022% growth rate
+
+Deere & Co[DE]: Failed to Obtain Data
+
+Dell Technologies Inc[DELL]: Failed to Obtain Data
+
+Dean Foods Co[DF]: Failed to Obtain Data
+
+Discover Financial Services[DFS]: Failed to Obtain Data
+
+Dollar General Corp[DG]: : 67.06 -> 158.03 = 135.65463763793616% growth rate
+
+Quest Diagnostics Inc[DGX]: : 71.07 -> 112.84 = 58.773040664133966% growth rate
+
+Danaher Corp[DHR]: : 62.45641 -> 165.95 = 165.70531351385708% growth rate
+
+Walt Disney Co-The[DIS]: : 90.96 -> 139.52 = 53.38610378188216% growth rate
+
+DISH Network Corp[DISH]: : 70.35 -> 39.97 = -43.18407960199004% growth rate
+
+Delek US Holdings Inc[DK]: Failed to Obtain Data
+
+Dollar Tree Inc[DLTR]: : 71.1 -> 88.68 = 24.725738396624493% growth rate
+
+Dover Corp[DOV]: : 56.57512 -> 119.92 = 111.96596666520549% growth rate
+
+Darden Restaurants Inc[DRI]: : 54.86758 -> 121.73 = 121.86143438438512% growth rate
+
+DTE Energy Co[DTE]: : 89.66 -> 134.02 = 49.475797457060025% growth rate
+
+Duke Energy Corp[DUK]: : 87.14 -> 101.29 = 16.238237319256378% growth rate
+
+DaVita Inc[DVA]: Failed to Obtain Data
+
+Devon Energy Corp[DVN]: : 60.27 -> 22.81 = -62.153641944582716% growth rate
+
+Entergy Arkansas Inc[EAB]: : 23.91 -> 25.8 = 7.90464240903388% growth rate
+
+eBay Inc[EBAY]: : 22.3064 -> 38.16 = 71.07197934225154% growth rate
+
+Ecolab Inc[ECL]: : 103.77 -> 207.28 = 99.74944588994893% growth rate
+
+Consolidated Edison Inc[ED]: : 69.28 -> 94.3 = 36.11431870669745% growth rate
+
+Edison International[EIX]: Failed to Obtain Data
+
+Estee Lauder Cos Inc-The[EL]: : 70.59 -> 215.02 = 204.60405156537752% growth rate
+
+EMCOR Group Inc[EME]: : 40.36 -> 87.42 = 116.6005946481665% growth rate
+
+Eastman Chemical Co[EMN]: : 70.89 -> 74.76 = 5.459162082099033% growth rate
+
+Emerson Electric Co[EMR]: : 56.94 -> 73.5 = 29.083245521601693% growth rate
+
+EOG Resources Inc[EOG]: : 89.03 -> 74.94 = -15.82612602493542% growth rate
+
+Enterprise Products Partners LP[EPD]: Failed to Obtain Data
+
+Exelon Corp[EXC]: : 36.04 -> 49.76 = 38.068812430632626% growth rate
+
+Expeditors International of Washington Inc[EXPD]: : 43.68 -> 73.39 = 68.01739926739927% growth rate
+
+Expedia Group Inc[EXPE]: : 85.93 -> 122.8 = 42.90701733969509% growth rate
+
+Ford Motor Co[F]: : 14.71 -> 8.09 = -45.00339904826649% growth rate
+
+First American Financial Corp[FAF]: : 34.02 -> 65.46 = 92.41622574955905% growth rate
+
+Facebook Inc[FB]: Failed to Obtain Data
+
+First Bancorp-Southern Pines NC[FBNC]: : 16.6 -> 36.85 = 121.9879518072289% growth rate
+
+Freeport-McMoRan Inc[FCX]: : 16.81 -> 12.24 = -27.186198691255196% growth rate
+
+First Data Corp[FDC]: Failed to Obtain Data
+
+FedEx Corp[FDX]: Failed to Obtain Data
+
+FirstEnergy Corp[FE]: : 40.33 -> 52.23 = 29.506570790974457% growth rate
+
+Fidelity National Information Services Inc[FIS]: : 62.43 -> 157.42999 = 152.1704148646484% growth rate
+
+Fiserv Inc[FISV]: : 36.265 -> 122.32 = 237.2949124500207% growth rate
+
+Fifth Third Bancorp[FITB]: : 17.3 -> 29.6 = 71.09826589595376% growth rate
+
+Foot Locker Inc[FL]: : 53.22 -> 40.395 = -24.09808342728297% growth rate
+
+Fluor Corp[FLR]: Failed to Obtain Data
+
+Freddie Mac[FMCC]: Failed to Obtain Data
+
+Fidelity National Financial Inc[FNF]: : 25.34296 -> 45.08 = 77.879774106892% growth rate
+
+Fannie Mae[FNMA]: Failed to Obtain Data
+
+Frontier Communications Corp[FTR]: Failed to Obtain Data
+
+General Dynamics Corp[GD]: : 133.21001 -> 188.00999 = 41.138034596649284% growth rate
+
+General Electric Co[GE]: : 22.97115 -> 12.83 = -44.14733263245419% growth rate
+
+Genesis Healthcare Inc[GEN]: : 8.3 -> 1.57 = -81.08433734939759% growth rate
+
+Gilead Sciences Inc[GILD]: : 104.83 -> 67.55 = -35.56233902508824% growth rate
+
+General Mills Inc[GIS]: : 52.48 -> 53.3 = 1.5625000000000007% growth rate
+
+Global Partners LP-MA[GLP]: Failed to Obtain Data
+
+General Motors Co[GM]: : 32.62 -> 34.76 = 6.560392397302271% growth rate
+
+GameStop Corp[GME]: : 35.25 -> 4.025 = -88.58156028368795% growth rate
+
+Genworth Financial Inc[GNW]: : 6.98 -> 4.295 = -38.46704871060172% growth rate
+
+Alphabet Inc[GOOG]: : 533.05652 -> 1520.73999 = 185.28681911629187% growth rate
+
+Genuine Parts Co[GPC]: : 92.94 -> 96.49 = 3.81966860340004% growth rate
+
+Group 1 Automotive Inc[GPI]: Failed to Obtain Data
+
+Gap Inc-The[GPS]: : 41.19 -> 18.135 = -55.97232337946103% growth rate
+
+Goldman Sachs Group Inc-The[GS]: : 172.41 -> 237.06 = 37.49782495214895% growth rate
+
+Goodyear Tire & Rubber Co-The[GT]: : 24.24 -> 11.1 = -54.207920792079214% growth rate
+
+Halliburton Co[HAL]: : 39.99 -> 22.14 = -44.636159039759946% growth rate
+
+Hanesbrands Inc[HBI]: : 27.845 -> 14.295 = -48.66223738552702% growth rate
+
+Home Depot Inc-The[HD]: Failed to Obtain Data
+
+HD Supply Holdings Inc[HDS]: : 28.83 -> 41.92 = 45.40409295872357% growth rate
+
+HollyFrontier Corp[HFC]: : 35.92 -> 43.33 = 20.629175946547875% growth rate
+
+Hartford Financial Services Group Inc-The[HGH]: : 30.52 -> 29.05 = -4.816513761467886% growth rate
+
+Huntington Ingalls Industries Inc[HII]: : 116.6 -> 246.0 = 110.9777015437393% growth rate
+
+Hilton Worldwide Holdings Inc[HLT]: : 53.29044 -> 113.21 = 112.43960455196091% growth rate
+
+Harley-Davidson Inc[HOG]: Failed to Obtain Data
+
+Honeywell International Inc[HON]: : 93.20141 -> 180.8 = 93.98848150473262% growth rate
+
+Hewlett Packard Enterprise Co[HPE]: Failed to Obtain Data
+
+Hormel Foods Corp[HRL]: Failed to Obtain Data
+
+Henry Schein Inc[HSIC]: : 54.1451 -> 72.13 = 33.21611743260239% growth rate
+
+Host Hotels & Resorts Inc[HST]: : 22.89 -> 16.905 = -26.146788990825687% growth rate
+
+Hershey Co-The[HSY]: : 102.21 -> 160.36 = 56.89267194990708% growth rate
+
+Hertz Global Holdings Inc[HTZ]: : 20.52 -> 19.7 = -3.9961013645224184% growth rate
+
+Humana Inc[HUM]: : 146.44 -> 375.92499 = 156.7092256214149% growth rate
+
+Huntsman Corp[HUN]: Failed to Obtain Data
+
+Intercontinental Exchange Inc[ICE]: : 41.146 -> 96.85 = 135.3813250376707% growth rate
+
+Icahn Enterprises LP[IEP]: : 96.87 -> 66.94 = -30.89707855889337% growth rate
+
+iHeartMedia Inc[IHRT]: Failed to Obtain Data
+
+Ingredion Inc[INGR]: Failed to Obtain Data
+
+World Fuel Services Corp[INT]: : 48.97 -> 38.77 = -20.829079027976306% growth rate
+
+International Paper Co[IP]: : 52.66 -> 43.16 = -18.04025826053931% growth rate
+
+Interpublic Group of Cos Inc-The[IPG]: : 19.94 -> 24.465 = 22.693079237713132% growth rate
+
+Illinois Tool Works Inc[ITW]: : 93.09 -> 187.85001 = 101.79397357396067% growth rate
+
+JetBlue Airways Corp[JBLU]: : 16.79 -> 21.27 = 26.682549136390715% growth rate
+
+Jacobs Engineering Group Inc[JEC]: Failed to Obtain Data
+
+Jones Lang LaSalle Inc[JLL]: : 147.08 -> 171.27499 = 16.450224367691042% growth rate
+
+Johnson & Johnson[JNJ]: : 100.14 -> 150.10001 = 49.89016377072099% growth rate
+
+Nordstrom Inc[JWN]: : 76.2 -> 40.285 = -47.132545931758536% growth rate
+
+Kellogg Co[K]: : 65.58 -> 67.69 = 3.2174443427874344% growth rate
+
+Kelly Services Inc[KELYA]: : 16.9 -> 20.19 = 19.467455621301795% growth rate
+
+KeyCorp[KEY]: Failed to Obtain Data
+
+Kraft Heinz Co-The[KHC]: Failed to Obtain Data
+
+Kimberly-Clark Corp[KMB]: Failed to Obtain Data
+
+Kinder Morgan Inc-DE[KMI]: : 41.05 -> 22.0 = -46.4068209500609% growth rate
+
+CarMax Inc[KMX]: : 62.1 -> 98.77 = 59.04991948470209% growth rate
+
+Kroger Co-The[KR]: : 34.525 -> 28.225 = -18.24764663287472% growth rate
+
+Loews Corp[L]: : 38.26 -> 54.2 = 41.66231050705699% growth rate
+
+Lithia Motors Inc[LAD]: : 84.7 -> 130.95 = 54.60448642266822% growth rate
+
+L Brands Inc[LB]: Failed to Obtain Data
+
+Leidos Holdings Inc[LDOS]: : 41.4 -> 112.84 = 172.56038647342996% growth rate
+
+Lear Corp[LEA]: : 100.35 -> 122.7 = 22.272047832585958% growth rate
+
+Lennar Corp[LEN]: : 44.15929 -> 70.36 = 59.33227187303057% growth rate
+
+L3Harris Technologies Inc[LHX]: Failed to Obtain Data
+
+LKQ Corp[LKQ]: Failed to Obtain Data
+
+Eli Lilly & Co[LLY]: : 72.0 -> 141.10001 = 95.97223611111112% growth rate
+
+Lockheed Martin Corp[LMT]: : 188.37 -> 437.79001 = 132.40962467484206% growth rate
+
+Lincoln National Corp[LNC]: : 49.98 -> 61.085 = 22.218887555022018% growth rate
+
+Lam Research Corp[LRCX]: : 76.44 -> 339.29999 = 343.8775379382522% growth rate
+
+Southwest Airlines Co[LUV]: : 45.18 -> 57.98 = 28.331119964586094% growth rate
+
+Las Vegas Sands Corp[LVS]: Failed to Obtain Data
+
+Live Nation Entertainment Inc[LYV]: : 23.77 -> 73.99 = 211.2747160286075% growth rate
+
+Mastercard Inc[MA]: : 82.03 -> 341.03 = 315.73814458125076% growth rate
+
+ManpowerGroup Inc[MAN]: : 72.88 -> 92.71 = 27.209110867178925% growth rate
+
+Marriott International Inc-MD[MAR]: : 74.5 -> 144.89999 = 94.49663087248322% growth rate
+
+Masco Corp[MAS]: : 21.82777 -> 45.6 = 108.90819355344132% growth rate
+
+Mattel Inc[MAT]: Failed to Obtain Data
+
+McKesson Corp[MCK]: : 212.64999 -> 168.06 = -20.96872424024097% growth rate
+
+Mondelez International Inc[MDLZ]: : 35.24 -> 59.66 = 69.29625425652665% growth rate
+
+MetLife Inc[MET]: : 41.44385 -> 52.27 = 26.12245242659648% growth rate
+
+MGM Resorts International[MGM]: : 19.48 -> 31.53 = 61.85831622176592% growth rate
+
+Mohawk Industries Inc[MHK]: : 165.03999 -> 137.98 = -16.39602014033084% growth rate
+
+Markel Corp[MKL]: Failed to Obtain Data
+
+Marsh & McLennan Cos Inc[MMC]: : 53.77 -> 118.82 = 120.97824065464009% growth rate
+
+3M Co[MMM]: : 162.3 -> 161.03 = -0.7825015403573691% growth rate
+
+Altria Group Inc[MO]: : 53.1 -> 45.18 = -14.915254237288138% growth rate
+
+Molina Healthcare Inc[MOH]: : 50.91 -> 144.95 = 184.71813003339227% growth rate
+
+Mosaic Co-The[MOS]: : 48.69 -> 18.745 = -61.50133497638118% growth rate
+
+Marathon Petroleum Corp[MPC]: Failed to Obtain Data
+
+Merck & Co Inc[MRK]: : 60.28 -> 82.64 = 37.093563370935634% growth rate
+
+Microsoft Corp[MSFT]: : 40.4 -> 185.325 = 358.72524752475243% growth rate
+
+Motorola Solutions Inc[MSI]: : 62.41 -> 184.42 = 195.49751642365004% growth rate
+
+Micron Technology Inc[MU]: : 29.27 -> 58.5 = 99.86334130509053% growth rate
+
+Murphy USA Inc[MUSA]: Failed to Obtain Data
+
+Navistar International Corp[NAV]: : 29.42 -> 37.27 = 26.682528891910266% growth rate
+
+NCR Corp[NCR]: : 25.4 -> 32.91 = 29.56692913385826% growth rate
+
+NextEra Energy Inc[NEE]: : 109.24 -> 278.51001 = 154.95240754302455% growth rate
+
+Netflix Inc[NFLX]: : 63.11428 -> 380.39999 = 502.71619988376636% growth rate
+
+NGL Energy Partners LP[NGL]: : 28.22 -> 9.45 = -66.51311126860384% growth rate
+
+Targa Resources Partners LP[NGLS-A]: Failed to Obtain Data
+
+Northrop Grumman Corp[NOC]: : 156.95 -> 370.815 = 136.2631411277477% growth rate
+
+National Oilwell Varco Inc[NOV]: : 54.43 -> 22.89 = -57.945985669667465% growth rate
+
+NRG Energy Inc[NRG]: : 24.66 -> 40.05 = 62.408759124087574% growth rate
+
+Norfolk Southern Corp[NSC]: : 101.97 -> 209.25999 = 105.2172109443954% growth rate
+
+Insight Enterprises Inc[NSIT]: : 23.67 -> 59.13 = 149.80988593155894% growth rate
+
+NetApp Inc[NTAP]: Failed to Obtain Data
+
+Nucor Corp[NUE]: : 43.65 -> 47.145 = 8.006872852233688% growth rate
+
+NVR Inc[NVR]: : 1254.22998 -> 3995.77002 = 218.58352006543487% growth rate
+
+Newell Brands Inc[NWL]: : 36.87 -> 20.1 = -45.484133441822614% growth rate
+
+Owens Corning[OC]: : 40.05 -> 63.82 = 59.350811485642964% growth rate
+
+Office Depot Inc[ODP]: : 7.6 -> 2.45 = -67.76315789473684% growth rate
+
+Owens-Illinois Inc[OI]: Failed to Obtain Data
+
+Olin Corp[OLN]: : 25.07 -> 17.85 = -28.799361786996403% growth rate
+
+Omnicom Group Inc[OMC]: : 72.8 -> 78.08 = 7.2527472527472545% growth rate
+
+Owens & Minor Inc[OMI]: : 34.23 -> 6.685 = -80.47034764826176% growth rate
+
+Oracle Corp[ORCL]: : 41.89 -> 55.46 = 32.3943661971831% growth rate
+
+Old Republic International Corp[ORI]: : 14.04 -> 23.49 = 67.3076923076923% growth rate
+
+Oshkosh Corp[OSK]: Failed to Obtain Data
+
+Occidental Petroleum Corp[OXY]: : 79.864 -> 41.59 = -47.923970750275465% growth rate
+
+Penske Automotive Group Inc[PAG]: : 48.35 -> 51.8 = 7.135470527404335% growth rate
+
+Plains GP Holdings LP[PAGP]: : 69.54667 -> 16.97 = -75.59911926768025% growth rate
+
+PBF Energy Inc[PBF]: : 28.1 -> 29.09 = 3.523131672597859% growth rate
+
+Patterson Cos Inc[PDCO]: : 50.09 -> 23.01 = -54.0626871631064% growth rate
+
+Public Service Enterprise Group Inc[PEG]: Failed to Obtain Data
+
+PepsiCo Inc[PEP]: : 93.78 -> 146.99001 = 56.73918746001281% growth rate
+
+Pfizer Inc[PFE]: : 31.25 -> 36.5 = 16.8% growth rate
+
+Principal Financial Group Inc[PFG]: : 46.93 -> 56.36 = 20.09375665885361% growth rate
+
+Performance Food Group Co[PFGC]: Failed to Obtain Data
+
+Procter & Gamble Co-The[PG]: Failed to Obtain Data
+
+Progressive Corp-The[PGR]: : 25.95 -> 83.77 = 222.81310211946047% growth rate
+
+Parker-Hannifin Corp[PH]: : 116.46 -> 211.78 = 81.84784475356346% growth rate
+
+PulteGroup Inc[PHM]: : 20.59 -> 46.7 = 126.80913064594466% growth rate
+
+Prudential Financial Inc[PJH]: : 25.63 -> 26.26 = 2.4580569644947428% growth rate
+
+Philip Morris International Inc[PM]: : 80.24 -> 88.48 = 10.269192422731816% growth rate
+
+PNC Financial Services Group Inc-The[PNC]: Failed to Obtain Data
+
+PPG Industries Inc[PPG]: : 111.44 -> 120.17 = 7.833811916726494% growth rate
+
+PPL Corp[PPL]: : 33.0647 -> 35.38 = 7.002331791911012% growth rate
+
+Phillips 66[PSX]: : 70.32 -> 89.47 = 27.23265073947669% growth rate
+
+PVH Corp[PVH]: : 110.26 -> 89.4 = -18.918918918918916% growth rate
+
+Quanta Services Inc[PWR]: : 26.48 -> 40.51 = 52.98338368580059% growth rate
+
+PayPal Holdings Inc[PYPL]: Failed to Obtain Data
+
+Ryder System Inc[R]: : 82.79 -> 40.125 = -51.53400169102549% growth rate
+
+Rite Aid Corp[RAD]: : 139.60001 -> 14.6127 = -89.53245060655797% growth rate
+
+Regions Financial Corp[RF]: : 8.7 -> 16.53 = 90.00000000000003% growth rate
+
+Reinsurance Group of America Inc[RGA]: : 82.81 -> 154.17 = 86.17316749184879% growth rate
+
+Robert Half International Inc[RHI]: : 58.06 -> 60.18 = 3.651395108508435% growth rate
+
+Raymond James Financial Inc[RJF]: Failed to Obtain Data
+
+Ralph Lauren Corp[RL]: : 166.89 -> 121.84 = -26.993828270118037% growth rate
+
+Realogy Holdings Corp[RLGY]: : 46.5 -> 12.68 = -72.73118279569893% growth rate
+
+Rockwell Automation Inc[ROK]: : 108.92 -> 200.67 = 84.23613661402864% growth rate
+
+Ross Stores Inc[ROST]: : 45.855 -> 121.85 = 165.72892814305965% growth rate
+
+Reliance Steel & Aluminum Co[RS]: : 52.37 -> 116.02 = 121.53904907389727% growth rate
+
+Republic Services Inc[RSG]: : 39.68 -> 100.46 = 153.17540322580643% growth rate
+
+Raytheon Co[RTN]: : 100.05 -> 227.17 = 127.05647176411794% growth rate
+
+Sonic Automotive Inc[SAH]: : 24.63 -> 31.78 = 29.029638652050355% growth rate
+
+Sanmina Corp[SANM]: : 21.18 -> 30.32 = 43.15391879131256% growth rate
+
+Suncrest Bank (Visalia, CA)[SBKK]: Failed to Obtain Data
+
+Starbucks Corp[SBUX]: Failed to Obtain Data
+
+Charles Schwab Corp-The[SCHW]: : 25.98 -> 47.23 = 81.79368745188606% growth rate
+
+Seaboard Corp[SEB]: : 3824.98999 -> 3795.0 = -0.7840540780081893% growth rate
+
+Sealed Air Corp[SEE]: : 40.5 -> 34.76 = -14.172839506172844% growth rate
+
+Sherwin-Williams Co-The[SHW]: : 271.26999 -> 585.22998 = 115.73708908972937% growth rate
+
+Simon Property Group Inc[SPG]: : 198.66 -> 138.87 = -30.096647538507998% growth rate
+
+S&P Global Inc[SPGI]: Failed to Obtain Data
+
+Spirit AeroSystems Holdings Inc[SPR]: : 45.04 -> 67.935 = 50.832593250444056% growth rate
+
+SpartanNash Co[SPTN]: : 25.76 -> 13.0 = -49.53416149068323% growth rate
+
+Sempra Energy[SRE]: : 111.92 -> 160.95 = 43.80807719799856% growth rate
+
+SunTrust Banks Inc[STI]: Failed to Obtain Data
+
+Steel Dynamics Inc[STLD]: Failed to Obtain Data
+
+Constellation Brands Inc[STZ]: : 110.45 -> 203.74001 = 84.4635672249887% growth rate
+
+Stanley Black & Decker Inc[SWJ]: Failed to Obtain Data
+
+Synchrony Financial[SYF]: Failed to Obtain Data
+
+Stryker Corp[SYK]: : 91.05 -> 221.52 = 143.29489291598026% growth rate
+
+Symantec Corp[SYMC]: : 24.77 -> 20.75 = -16.22930964876867% growth rate
+
+Sysco Corp[SYY]: : 39.17 -> 78.19 = 99.61705386775593% growth rate
+
+AT&T Inc[T]: : 32.92 -> 38.25 = 16.19076549210206% growth rate
+
+TravelCenters of America LLC[TA]: : 66.95 -> 16.51 = -75.3398058252427% growth rate
+
+Tech Data Corp[TECD]: Failed to Obtain Data
+
+Tenneco Inc[TEN]: : 51.42 -> 10.48 = -79.61882535978218% growth rate
+
+Terex Corp[TEX]: : 22.48 -> 25.69 = 14.279359430604984% growth rate
+
+Tenet Healthcare Corp[THC]: : 42.28 -> 33.39 = -21.02649006622517% growth rate
+
+TreeHouse Foods Inc[THS]: : 90.7 -> 45.72 = -49.592061742006614% growth rate
+
+TJX Cos Inc-The[TJX]: : 32.97 -> 63.41 = 92.32635729451016% growth rate
+
+Thermo Fisher Scientific Inc[TMO]: Failed to Obtain Data
+
+Toll Brothers Inc[TOL]: : 34.62 -> 47.58 = 37.43500866551127% growth rate
+
+Tractor Supply Co[TSCO]: : 81.17 -> 98.17 = 20.943698410742883% growth rate
+
+Tesla Inc[TSLA]: : 203.60001 -> 800.03003 = 292.94203865707084% growth rate
+
+Tyson Foods Inc[TSN]: : 39.04 -> 80.48 = 106.14754098360658% growth rate
+
+Texas Instruments Inc[TXN]: : 53.45 -> 132.22 = 147.3713751169317% growth rate
+
+Textron Inc[TXT]: Failed to Obtain Data
+
+UGI Corp[UGI]: : 36.99 -> 41.695 = 12.719653960529866% growth rate
+
+Universal Health Services Inc[UHS]: : 102.53 -> 140.0 = 36.545401345947525% growth rate
+
+United Natural Foods Inc[UNFI]: : 77.28 -> 7.54 = -90.24327122153208% growth rate
+
+UnitedHealth Group Inc[UNH]: : 106.25 -> 298.54001 = 180.97883294117648% growth rate
+
+Unum Group[UNM]: : 31.06 -> 30.01 = -3.38055376690276% growth rate
+
+Union Pacific Corp[UNP]: Failed to Obtain Data
+
+Univar Inc[UNVR]: Failed to Obtain Data
+
+United Rentals Inc[URI]: : 82.85 -> 156.85001 = 89.31805672902837% growth rate
+
+US Foods Holding Corp[USFD]: Failed to Obtain Data
+
+United Technologies Corp[UTX]: Failed to Obtain Data
+
+VF Corp[VFC]: : 65.32015 -> 83.64 = 28.046246066489445% growth rate
+
+Viacom Inc[VIA]: Failed to Obtain Data
+
+Valero Energy Corp[VLO]: Failed to Obtain Data
+
+Voya Financial Inc[VOYA]: : 39.01 -> 62.56 = 60.36913611894388% growth rate
+
+Veritiv Corp[VRTV]: : 50.87 -> 12.99 = -74.46432081777078% growth rate
+
+Vistra Energy Corp[VST]: : 2300.0 -> 23.285 = -98.98760869565218% growth rate
+
+Verizon Communications Inc[VZ]: : 45.71 -> 58.49 = 27.958871144169766% growth rate
+
+Walgreens Boots Alliance Inc[WBA]: : 73.75 -> 52.86 = -28.325423728813558% growth rate
+
+WESCO International Inc[WCC]: Failed to Obtain Data
+
+WellCare Health Plans Inc[WCG]: : 72.85 -> 349.92001 = 380.3294577899795% growth rate
+
+Western Digital Corp[WDC]: : 97.23 -> 69.25 = -28.777126401316465% growth rate
+
+WEC Energy Group Inc[WEC]: : 55.77 -> 101.88 = 82.67885960193651% growth rate
+
+Whirlpool Corp[WHR]: : 199.08 -> 152.14999 = -23.573442837050436% growth rate
+
+Williams Industrial Services Group Inc.[WLMS]: Failed to Obtain Data
+
+Waste Management Inc[WM]: : 51.43 -> 125.75 = 144.50709702508263% growth rate
+
+Walmart Inc[WMT]: : 84.98 -> 117.93 = 38.77382913626736% growth rate
+
+Western Union Co-The[WU]: : 17.0 -> 26.245 = 54.38235294117648% growth rate
+
+Weyerhaeuser Co[WY]: : 35.85 -> 30.65 = -14.504881450488153% growth rate
+
+United States Steel Corp[X]: : 24.44 -> 8.8 = -63.99345335515548% growth rate
+
+Xcel Energy Inc[XEL]: Failed to Obtain Data
+
+Exxon Mobil Corp[XOM]: : 87.42 -> 60.64 = -30.633722260352325% growth rate
+
+XPO Logistics Inc[XPO]: : 36.79 -> 95.17 = 158.68442511552053% growth rate
+
+Xerox Corp[XRX]: : 34.70356 -> 37.81 = 8.951358304450606% growth rate
+
+Alleghany Corp[Y]: : 442.09 -> 825.0 = 86.61358546902215% growth rate
+
+Yum China Holdings Inc[YUMC]: Failed to Obtain Data
+
+Zimmer Biomet Holdings Inc[ZBH]: Failed to Obtain Data
+
+Asbury Automotive Group Inc[ABG]: : 74.21 -> 95.69 = 28.94488613394422% growth rate
+
+American Electric Power Co Inc[AEP]: : 62.81 -> 103.74 = 65.16478267791751% growth rate
+
+AllianzGI Artificial Intelligence & Technology Opportunities Fund[AIO]: Failed to Obtain Data
+
+Autoliv Inc[ALV]: Failed to Obtain Data
+
+Amazon.com Inc[AMZN]: : 354.53 -> 2135.47998 = 502.34112204890994% growth rate
+
+Anadarko Petroleum Corp[APC]: Failed to Obtain Data
+
+Air Products & Chemicals Inc[APD]: Failed to Obtain Data
+
+Activision Blizzard Inc[ATVI]: : 20.9 -> 63.52 = 203.9234449760766% growth rate
+
+AutoZone Inc[AZO]: : 596.96002 -> 1052.43994 = 76.29990363508765% growth rate
+
+Liberty Media Corp-Liberty Braves[BATRA]: Failed to Obtain Data
+
+Baker Hughes a GE Co[BHGE]: Failed to Obtain Data
+
+Bristol-Myers Squibb Co[BMY]: : 60.27 -> 66.39 = 10.154305624688895% growth rate
+
+Citigroup Inc[C]: : 46.95 -> 78.795 = 67.82747603833866% growth rate
+
+Caterpillar Inc[CAT]: : 79.97 -> 138.00999 = 72.57720395148179% growth rate
+
+CBS Corp[CBS]: Failed to Obtain Data
+
+Chemours Co-The[CC]: Failed to Obtain Data
+
+Celgene Corp[CELG]: Failed to Obtain Data
+
+China Internet Nationwide Financial Services Inc[CIFS]: Failed to Obtain Data
+
+CMS Energy Corp[CMS]: : 37.73 -> 68.525 = 81.61940100715613% growth rate
+
+Corning Natural Gas Holding Corporation[CNIG]: Failed to Obtain Data
+
+CenterPoint Energy Inc[CNP]: Failed to Obtain Data
+
+salesforce.com Inc[CRM]: : 56.45 -> 189.87 = 236.3507528786537% growth rate
+
+Chevron Corp[CVX]: : 102.53 -> 110.06 = 7.344191943821321% growth rate
+
+Deere & Co[DE]: : 85.19 -> 168.03999 = 97.25318699377861% growth rate
+
+Dell Technologies Inc[DELL]: Failed to Obtain Data
+
+Dean Foods Co[DF]: Failed to Obtain Data
+
+Discover Financial Services[DFS]: : 54.38 -> 76.44 = 40.56638470025744% growth rate
+
+Delek US Holdings Inc[DK]: : 30.85 -> 28.39 = -7.974068071312806% growth rate
+
+DaVita Inc[DVA]: Failed to Obtain Data
+
+Edison International[EIX]: : 68.15 -> 77.1 = 13.132795304475403% growth rate
+
+Enterprise Products Partners LP[EPD]: : 34.44 -> 26.26 = -23.751451800232278% growth rate
+
+Facebook Inc[FB]: : 75.91 -> 214.17999 = 182.14990119878806% growth rate
+
+First Data Corp[FDC]: Failed to Obtain Data
+
+FedEx Corp[FDX]: Failed to Obtain Data
+
+Fluor Corp[FLR]: : 53.59 -> 19.54 = -63.53797350251913% growth rate
+
+Freddie Mac[FMCC]: Failed to Obtain Data
+
+Fannie Mae[FNMA]: Failed to Obtain Data
+
+Frontier Communications Corp[FTR]: : 100.8 -> 0.5713 = -99.43323412698413% growth rate
+
+Global Partners LP-MA[GLP]: : 38.51 -> 19.1 = -50.40249285899766% growth rate
+
+Group 1 Automotive Inc[GPI]: : 80.39 -> 98.51 = 22.54011692996642% growth rate
+
+Home Depot Inc-The[HD]: : 104.42 -> 245.03 = 134.65811147289793% growth rate
+
+Harley-Davidson Inc[HOG]: : 61.7 -> 34.37 = -44.29497568881686% growth rate
+
+Hewlett Packard Enterprise Co[HPE]: Failed to Obtain Data
+
+Hormel Foods Corp[HRL]: : 25.61 -> 48.585 = 89.71105037094885% growth rate
+
+Huntsman Corp[HUN]: : 21.96 -> 21.06 = -4.098360655737714% growth rate
+
+iHeartMedia Inc[IHRT]: Failed to Obtain Data
+
+Ingredion Inc[INGR]: Failed to Obtain Data
+
+Jacobs Engineering Group Inc[JEC]: : 38.1 -> 97.82 = 156.74540682414695% growth rate
+
+KeyCorp[KEY]: : 12.99 -> 19.735 = 51.92455735180908% growth rate
+
+Kraft Heinz Co-The[KHC]: Failed to Obtain Data
+
+Kimberly-Clark Corp[KMB]: Failed to Obtain Data
+
+L Brands Inc[LB]: : 84.63 -> 24.33 = -71.25132931584545% growth rate
+
+L3Harris Technologies Inc[LHX]: Failed to Obtain Data
+
+LKQ Corp[LKQ]: Failed to Obtain Data
+
+Las Vegas Sands Corp[LVS]: : 54.37 -> 68.05 = 25.160934338789776% growth rate
+
+Mattel Inc[MAT]: : 26.9 -> 13.9654 = -48.08401486988847% growth rate
+
+Markel Corp[MKL]: : 683.35999 -> 1323.98999 = 93.74707465679984% growth rate
+
+Marathon Petroleum Corp[MPC]: : 46.295 -> 58.31 = 25.95312668754725% growth rate
+
+Murphy USA Inc[MUSA]: : 69.81 -> 105.06 = 50.494198538891276% growth rate
+
+Targa Resources Partners LP[NGLS-A]: Failed to Obtain Data
+
+NetApp Inc[NTAP]: : 37.8 -> 54.24 = 43.49206349206351% growth rate
+
+Owens-Illinois Inc[OI]: : 23.35 -> 13.5 = -42.184154175588866% growth rate
+
+Oshkosh Corp[OSK]: : 42.85 -> 84.13 = 96.33605600933487% growth rate
+
+Public Service Enterprise Group Inc[PEG]: : 42.68 -> 58.47 = 36.9962511715089% growth rate
+
+Performance Food Group Co[PFGC]: Failed to Obtain Data
+
+Procter & Gamble Co-The[PG]: : 84.29 -> 126.13 = 49.638153992169876% growth rate
+
+PNC Financial Services Group Inc-The[PNC]: : 84.54 -> 154.13 = 82.31606340193989% growth rate
+
+PayPal Holdings Inc[PYPL]: Failed to Obtain Data
+
+Raymond James Financial Inc[RJF]: Failed to Obtain Data
+
+Suncrest Bank (Visalia, CA)[SBKK]: Failed to Obtain Data
+
+Starbucks Corp[SBUX]: Failed to Obtain Data
+
+S&P Global Inc[SPGI]: : 89.44 -> 307.60001 = 243.91772137745974% growth rate
+
+SunTrust Banks Inc[STI]: Failed to Obtain Data
+
+Steel Dynamics Inc[STLD]: Failed to Obtain Data
+
+Stanley Black & Decker Inc[SWJ]: Failed to Obtain Data
+
+Synchrony Financial[SYF]: Failed to Obtain Data
+
+Tech Data Corp[TECD]: : 57.1 -> 144.08 = 152.3292469352014% growth rate
+
+Thermo Fisher Scientific Inc[TMO]: : 125.21 -> 339.17001 = 170.88092804089132% growth rate
+
+Textron Inc[TXT]: : 42.56 -> 48.085 = 12.981672932330824% growth rate
+
+Union Pacific Corp[UNP]: : 117.21 -> 183.91 = 56.90640730313113% growth rate
+
+Univar Inc[UNVR]: Failed to Obtain Data
+
+US Foods Holding Corp[USFD]: Failed to Obtain Data
+
+United Technologies Corp[UTX]: : 114.78 -> 153.56 = 33.7863739327409% growth rate
+
+Viacom Inc[VIA]: Failed to Obtain Data
+
+Valero Energy Corp[VLO]: Failed to Obtain Data
+
+WESCO International Inc[WCC]: : 66.76 -> 48.38 = -27.531455961653688% growth rate
+
+Williams Industrial Services Group Inc.[WLMS]: Failed to Obtain Data
+
+Xcel Energy Inc[XEL]: Failed to Obtain Data
+
+Yum China Holdings Inc[YUMC]: Failed to Obtain Data
+
+Zimmer Biomet Holdings Inc[ZBH]: Failed to Obtain Data
+
+Task Completed!
