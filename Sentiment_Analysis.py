@@ -3,8 +3,8 @@ from nltk.tag import pos_tag
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import stopwords
 import nltk
-import re, string
-from nltk import FreqDist
+import re, string, random
+from nltk import FreqDist, classify, NaiveBayesClassifier
 
 lemmatizer = WordNetLemmatizer()
 stop_words = stopwords.words('english')
@@ -48,11 +48,17 @@ def remove_noise(tokens):
     return processed_words
 
 def get_all_words(cleaned_tokens_list):
+    word_list = []
     for tokens in cleaned_tokens_list:
         for token in tokens:
-            yield token
+            word_list.append(token)
+    return word_list
 
-def test():
+def get_tweets_for_model(cleaned_tokens_list):
+    for tweet in cleaned_tokens_list:
+        yield dict([token, True] for token in tweet)
+
+def startAnalysis():
     # tokenize positive_tweets
     positive_tweet_tokens = twitter_samples.tokenized('positive_tweets.json')
     negative_tweet_tokens = twitter_samples.tokenized('negative_tweets.json')
@@ -66,23 +72,27 @@ def test():
     for tokens in negative_tweet_tokens:
         negative_cleaned_tokens_list.append(remove_noise(tokens))
     
-    all_pos_words = get_all_words(positive_cleaned_tokens_list)
-    freq_dist_pos = FreqDist(all_pos_words)
-    print(freq_dist_pos.most_common(10))
+    pos_tweet_for_model = get_tweets_for_model(positive_cleaned_tokens_list)
+    pos_dataset = [(tweet_dict,"Positive") for tweet_dict in pos_tweet_for_model]
+    neg_tweet_for_model = get_tweets_for_model(negative_cleaned_tokens_list)
+    neg_dataset = [(tweet_dict,"Negative") for tweet_dict in neg_tweet_for_model]
+  
+    dataset = pos_dataset + neg_dataset
+    random.shuffle(dataset)
 
-    # print the first sample tweet
-    #print(positive_cleaned_tokens_list[0])
-    #print(negative_cleaned_tokens_list[0])
+    train_data = dataset[:7000]
+    test_data= dataset[7000:]
+
+    classifier = NaiveBayesClassifier.train(train_data)
+    print("Accuracy is:", classify.accuracy(classifier, test_data))
+    print(classifier.show_most_informative_features(10))
+
+    #all_pos_words = get_all_words(positive_cleaned_tokens_list)
+    #freq_dist_pos = FreqDist(all_pos_words)
+    #print(freq_dist_pos.most_common(10))
 
 if __name__ == "__main__":
-    #nltk.download('twitter_samples')
-    #nltk.download('punkt')
-    #nltk.download('wordnet')
-    #nltk.download('averaged_perceptron_tagger')
-    #nltk.download('stopwords')
-
-    test()
-
+    startAnalysis()
     print("Completed!!!")
 
 
