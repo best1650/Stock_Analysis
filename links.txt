@@ -5,4 +5,4 @@ https://www.digitalocean.com/community/tutorials/how-to-perform-sentiment-analys
 https://towardsdatascience.com/creating-the-twitter-sentiment-analysis-program-in-python-with-naive-bayes-classification-672e5589a7ed
 
 
-test
+ctrl + alt + S
