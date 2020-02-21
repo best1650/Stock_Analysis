@@ -10,6 +10,7 @@ TWO_YEAR = ONE_YEAR * 2
 THREE_YEAR = ONE_YEAR * 3
 FOUR_YEAR = ONE_YEAR * 4
 BORDER_LEN = 70
+global STOCK_PRICE_LIST
 
 def getStockPriceList(symbol, adjustment=ONE_YEAR):
     stockPath = "stockData/" + symbol + "/price.txt"
@@ -105,13 +106,15 @@ def getStockGrowthRateRanking(adjustment=ONE_YEAR):
 
     return sortedStockGrowthList
 
-def printStockGrowthRateRanking(displayLimit): 
+def printStockGrowthRateRanking(displayLimit):
+    global STOCK_PRICE_LIST
     sortedStockGrowthList = getStockGrowthRateRanking() 
     printBorder("Ranking")
     counter = 0
     for key, val in sortedStockGrowthList.items():
         counter+=1
-        print(str(counter) + ".\t" + key + ":" + str(val) + "%")
+        print(str(counter) + ".\t" + key + ":" + str(val) + "%" +\
+              " - $" + STOCK_PRICE_LIST[key])
         if counter >= displayLimit:
             break
 
@@ -131,6 +134,8 @@ def getTopStockList(sortedStockGrowthList, topRank):
     return topStockList
 
 def recommendedStockList(topRank=100):
+    global STOCK_PRICE_LIST
+    
     timeRangeList = [ONE_MONTH, THREE_MONTH, HALF_YEAR, ONE_YEAR, TWO_YEAR, THREE_YEAR, FOUR_YEAR]
     stockInTimeRange = []
     for timeRange in timeRangeList:
@@ -147,10 +152,29 @@ def recommendedStockList(topRank=100):
     printBorder("Recommendation")
     for stock in rtnList:
         counter += 1
-        print(str(counter) + "\t" + stock)
+        print(str(counter) + "\t" + stock +\
+              " - $" + STOCK_PRICE_LIST[stock])
     printBorder()
 
+def initStockList():
+    global STOCK_PRICE_LIST
+    STOCK_PRICE_LIST = {}
+    stockListFile = open("cleanStockList.csv", "r")
+    isHeader = True 
+    stockGrowthList = {}
+    for stockData in stockListFile:
+        if isHeader:
+            isHeader = False
+        else:
+            stockDataTokens = stockData.split(",")
+            stockName = stockDataTokens[0]
+            stockSymbol = stockDataTokens[1]
+            stockPrice = stockDataTokens[2]
+            stockKey = stockName + " (" + stockSymbol + ")"
+            STOCK_PRICE_LIST[stockKey] = stockPrice
+
 if __name__ == "__main__":
+    initStockList()
 
     while True:
         userInput = input("Stock@:")
@@ -166,6 +190,7 @@ if __name__ == "__main__":
             stockPriceList = getStockPriceList(symbole)
             if len(stockPriceList) != 0:
                 runStockCalculation(symbole, stockPriceList)
+
 
 
 

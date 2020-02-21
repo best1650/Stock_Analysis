@@ -1,10 +1,10 @@
 Company,Symbol,Price,Dividend
 Microsoft Corporation,MSFT,183.25,1.09
 Apple Inc.,AAPL,320.04,0.95
-Amazon.com Inc.,AMZN, 2,0
+Amazon.com Inc.,AMZN,2096.25,0
 Facebook Inc. Class A,FB,214.51,0
-Alphabet Inc. Class A,GOOGL, 1,0
-Alphabet Inc. Class C,GOOG, 1,0
+Alphabet Inc. Class A,GOOGL,1484.06,0
+Alphabet Inc. Class C,GOOG,1486.00,0
 Berkshire Hathaway Inc. Class B,BRK.B,228.13,0
 JPMorgan Chase & Co.,JPM,137.14,2.62
 Johnson & Johnson,JNJ,148.24,2.55
@@ -72,7 +72,7 @@ Charter Communications Inc. Class A,CHTR,535.80,0
 Gilead Sciences Inc.,GILD,66.77,4.04
 Altria Group Inc,MO,45.43,7.43
 Cigna Corporation,CI,220.21,0.2
-Booking Holdings Inc.,BKNG, 1,0
+Booking Holdings Inc.,BKNG,1928.72,0
 Intuit Inc.,INTU,300.66,0.69
 Automatic Data Processing Inc.,ADP,179.89,2.01
 U.S. Bancorp,USB,54.83,3.07
@@ -232,7 +232,7 @@ Williams Companies Inc.,WMB,22.06,0
 DTE Energy Company,DTE,133.62,0
 Cummins Inc.,CMI,168.14,0
 PACCAR Inc,PCAR,75.27,0
-AutoZone Inc.,AZO, 1,0
+AutoZone Inc.,AZO,1088.99,0
 ANSYS Inc.,ANSS,292.16,0
 PPL Corporation,PPL,35.41,0
 Cintas Corporation,CTAS,297.44,0
