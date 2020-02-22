@@ -1,5 +1,8 @@
 import os
 import operator
+import requests
+import urllib.parse
+import textwrap
 
 MIN_COUNT = 500
 ONE_MONTH = 22
@@ -173,14 +176,69 @@ def initStockList():
             stockKey = stockName + " (" + stockSymbol + ")"
             STOCK_PRICE_LIST[stockKey] = stockPrice
 
+def searchCompanyInWiki(key):
+    printBorder("Search Result")
+    wikiBaseURL = "https://en.wikipedia.org/w/api.php?"
+    apiParams = {  \
+        'action':'query',\
+        'format':'json',\
+        'list':'search',\
+        'srsearch':urllib.parse.quote(key)
+    }
+    
+    resp = requests.get(url=wikiBaseURL, params=apiParams);
+    searchJson = resp.json()
+    searchResultList = searchJson['query']['search']
+    if len(searchResultList) == 0:
+        print("")
+    else:
+        for searchItem in searchResultList:
+            print(searchItem['title'] + " (" + str(searchItem['pageid']) + ")")
+            
+    printBorder()
+
+def printWikiText(wikiText):
+    print()
+    indentText = " " * 3
+    wikiTextList = wikiText.split("\n")
+    for wikiTextToken in wikiTextList:
+        wrapper = textwrap.TextWrapper(\
+            width=65,\
+            initial_indent=indentText,\
+            subsequent_indent=indentText\
+        ) 
+        word_list = wrapper.wrap(text=wikiTextToken) 
+        printText = ""
+        for element in word_list: 
+            printText += element + "\n"
+
+        print(printText)
+        
+def getWikiData(pageId):
+    wikiBaseURL = "https://en.wikipedia.org/w/api.php?"
+    apiParam = "action=query&format=json&prop=extracts&exintro&explaintext&pageids="
+    
+    resp = requests.get(url=wikiBaseURL+apiParam+str(pageId));
+    searchJson = resp.json()
+    wikiData = searchJson['query']['pages'][str(pageId)]
+    wikiTitle = wikiData['title']
+    wikiText = wikiData['extract']
+    
+    printBorder(wikiTitle)
+    printWikiText(wikiText)
+    printBorder()
+
 if __name__ == "__main__":
     initStockList()
-
     while True:
         userInput = input("Stock@:")
         userInput = userInput.lower().split(" ")
         if (userInput[0] == "exit"):
             break
+        elif (userInput[0] == "search"):
+            searchCompanyInWiki(userInput[1])
+        elif (userInput[0] == "wiki"):
+            getWikiData(int(userInput[1]))
         elif (userInput[0] == "rank"):
             printStockGrowthRateRanking(int(userInput[1]))
         elif (userInput[0] == "re"):
@@ -190,7 +248,6 @@ if __name__ == "__main__":
             stockPriceList = getStockPriceList(symbole)
             if len(stockPriceList) != 0:
                 runStockCalculation(symbole, stockPriceList)
-
 
 
 
