@@ -1,0 +1,49 @@
+ResMed Inc. (RMD) - $174.58
+Current Price:175.97
+LP in One Month:159.05
+LP in Three Month:145.25
+LP in Half Year:126.52
+LP in One Year:97.37
+Stock LP:97.37
+Stock HP:176.63
+Growth Rate:75.18%
+
+Class 1:20.076%	Price Range:97.37~108.69
+Class 2:12.879%	Price Range:108.69~120.02
+Class 3:18.182%	Price Range:120.02~131.34
+Class 4:17.424%	Price Range:131.34~142.66
+Class 5:14.394%	Price Range:142.66~153.98
+Class 6:11.742%	Price Range:153.98~165.31
+Class 7:5.303%	Price Range:165.31~176.63
+
+Advanced Micro Devices Inc. (AMD) - $57.16
+Microsoft Corporation (MSFT) - $183.25
+NextEra Energy Inc. (NEE) - $275.02
+ServiceNow Inc. (NOW) - $350.87
+ANSYS Inc. (ANSS) - $292.16
+Lam Research Corporation (LRCX) - $327.23
+Intel Corporation (INTC) - $65.03
+
+Paycom Software Inc. (PAYC) - $309.28
+Current Price:310.20001
+LP in One Month:290.56
+LP in Three Month:239.5625
+LP in Half Year:190.60001
+LP in One Year:175.64
+Stock LP:175.64
+Stock HP:337.73001
+Growth Rate:70.0%
+
+Class 1:20.076%	Price Range:175.64~198.8
+Class 2:31.439%	Price Range:198.8~221.95
+Class 3:19.318%	Price Range:221.95~245.11
+Class 4:11.364%	Price Range:245.11~268.26
+Class 5:8.712%	Price Range:268.26~291.42
+Class 6:4.924%	Price Range:291.42~314.57
+Class 7:4.167%	Price Range:314.57~337.73
+
+NVIDIA Corporation (NVDA) - $306.57
+Leidos Holdings Inc. (LDOS) - $118.50
+Adobe Inc. (ADBE) - $377.70
+Amazon.com Inc. (AMZN) - $2096.25
+Alphabet Inc. Class C (GOOG) - $1486.00
