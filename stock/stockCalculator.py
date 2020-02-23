@@ -3,6 +3,12 @@ import operator
 import requests
 import urllib.parse
 import textwrap
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+import datetime
+import time
+#import mplcursors
 
 MIN_COUNT = 500
 ONE_MONTH = 22
@@ -14,6 +20,12 @@ THREE_YEAR = ONE_YEAR * 3
 FOUR_YEAR = ONE_YEAR * 4
 BORDER_LEN = 70
 global STOCK_PRICE_LIST
+
+STOCK_API_URL = "https://api.twelvedata.com/"
+STOCK_API_KEY = "e763a45b79a14e99983d22e08b10331a"
+STOCK_START_DATE = '2019-08-19'
+STOCK_END_DATE = '2020-02-19'
+STOCK_INTERVAL = '1day'
 
 def getStockPriceList(symbol, adjustment=ONE_YEAR):
     stockPath = "stockData/" + symbol + "/price.txt"
@@ -228,7 +240,78 @@ def getWikiData(pageId):
     printWikiText(wikiText)
     printBorder()
 
+def parseDate(dateTime):
+    return datetime.datetime.strptime(dateTime, "%Y-%m-%d")
+
+def downloadStockPrice(symbol):
+    apiParams = {  \
+        'symbol':symbol,\
+        'interval':STOCK_INTERVAL,\
+        'apikey':STOCK_API_KEY,\
+        'start_date':STOCK_START_DATE,\
+        'end_date':STOCK_END_DATE\
+    }
+    
+    apiURL = STOCK_API_URL + "time_series?"
+
+    resp = requests.get(url=apiURL, params=apiParams);
+    stockData = resp.json()  
+
+    dateTimeList = []
+    dailyPriceList = []
+    dailyEmaList= []
+    
+    if stockData['status'] == 'ok':
+        for dailyData in stockData['values']:
+            dateTimeList.append( parseDate(dailyData['datetime']) )
+            dailyPriceList.append( float(dailyData['close']) )
+
+    apiParams = {  \
+        'symbol':symbol,\
+        'interval':STOCK_INTERVAL,\
+        'apikey':STOCK_API_KEY,\
+        'start_date':STOCK_START_DATE,\
+        'end_date':STOCK_END_DATE,\
+        'time_period':10
+    }
+
+    time.sleep(1)
+
+    apiURL = STOCK_API_URL + "ema"
+
+    resp = requests.get(url=apiURL, params=apiParams);
+    stockData = resp.json() 
+
+    if stockData['status'] == 'ok':
+        for dailyData in stockData['values']:
+            dailyEmaList.append(float(dailyData['ema']))
+
+    dateTimeList.reverse()
+    dailyPriceList.reverse()
+    dailyEmaList.reverse()
+
+    return dateTimeList, dailyPriceList, dailyEmaList
+ 
+def drawStockGraph(symbol):
+    dateTimeList, dailyPriceList, dailyEmaList = downloadStockPrice(symbol)
+    fig, ax = plt.subplots()
+    ax.plot_date(dateTimeList, dailyPriceList,'b-')
+    ax.plot_date(dateTimeList, dailyEmaList,'b-')
+    fig.autofmt_xdate()
+    ax.set_xlim([parseDate(STOCK_START_DATE), parseDate(STOCK_END_DATE)])
+
+    minP = min(dailyPriceList)
+    maxP = max(dailyPriceList)
+
+    increment = maxP - minP / 5
+    plt.title(symbol + " Stock Trend")
+    plt.xlabel("Time")
+    plt.ylabel("Stock Price")
+    plt.show()
+    
 if __name__ == "__main__":
+    drawStockGraph('AMD')
+    '''
     initStockList()
     while True:
         userInput = input("Stock@:")
@@ -248,6 +331,7 @@ if __name__ == "__main__":
             stockPriceList = getStockPriceList(symbole)
             if len(stockPriceList) != 0:
                 runStockCalculation(symbole, stockPriceList)
+    '''
 
 
 
