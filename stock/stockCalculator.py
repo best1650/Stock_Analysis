@@ -6,9 +6,10 @@ import textwrap
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
+import matplotlib.ticker as mticker
 import datetime
 import time
-#import mplcursors
+import mplcursors
 
 MIN_COUNT = 500
 ONE_MONTH = 22
@@ -23,8 +24,8 @@ global STOCK_PRICE_LIST
 
 STOCK_API_URL = "https://api.twelvedata.com/"
 STOCK_API_KEY = "e763a45b79a14e99983d22e08b10331a"
-STOCK_START_DATE = '2019-08-19'
-STOCK_END_DATE = '2020-02-19'
+STOCK_START_DATE = '2019-08-21'
+STOCK_END_DATE = '2020-02-21'
 STOCK_INTERVAL = '1day'
 
 def getStockPriceList(symbol, adjustment=ONE_YEAR):
@@ -294,24 +295,31 @@ def downloadStockPrice(symbol):
  
 def drawStockGraph(symbol):
     dateTimeList, dailyPriceList, dailyEmaList = downloadStockPrice(symbol)
+    dateTimeNP = np.array(dateTimeList)
+    dailyPriceNP = np.array(dailyPriceList)
+    dailyEmaNP = np.array(dailyEmaList)
+    
     fig, ax = plt.subplots()
-    ax.plot_date(dateTimeList, dailyPriceList,'b-')
-    ax.plot_date(dateTimeList, dailyEmaList,'b-')
+    ax.plot_date(dateTimeNP, dailyPriceNP,'b-', label='Daily Stock Price')
+    ax.plot_date(dateTimeNP, dailyEmaNP,'r-', label='Daily Stock EMA')
+    
+    ax.legend(loc='upper center', shadow=True, fontsize='x-large')
+    fmt = mdates.DateFormatter('%Y-%m-%d')
+    ax.xaxis.set_major_formatter(fmt)
+    fmt = mplcursors.cursor(hover=True)
     fig.autofmt_xdate()
-    ax.set_xlim([parseDate(STOCK_START_DATE), parseDate(STOCK_END_DATE)])
+    
+    fig.set_size_inches(15,8)
+    plt.title(symbol + " Stock Trend", fontsize=24)
+    plt.xlabel("Time", fontsize=18)
+    plt.ylabel("Stock Price", fontsize=18)
 
-    minP = min(dailyPriceList)
-    maxP = max(dailyPriceList)
-
-    increment = maxP - minP / 5
-    plt.title(symbol + " Stock Trend")
-    plt.xlabel("Time")
-    plt.ylabel("Stock Price")
+    idx = np.argwhere(\
+        np.diff(np.sign(dailyPriceNP - dailyEmaNP))).flatten()
+    plt.plot(dateTimeNP[idx], dailyPriceNP[idx], 'go')
     plt.show()
     
 if __name__ == "__main__":
-    drawStockGraph('AMD')
-    '''
     initStockList()
     while True:
         userInput = input("Stock@:")
@@ -325,13 +333,16 @@ if __name__ == "__main__":
         elif (userInput[0] == "rank"):
             printStockGrowthRateRanking(int(userInput[1]))
         elif (userInput[0] == "re"):
-            recommendedStockList(int(userInput[1]))  
+            recommendedStockList(int(userInput[1]))
+        elif (userInput[0] == "graph"):
+            drawStockGraph(userInput[1])
         elif (userInput[0] == "stock"):
             symbole = userInput[1].upper()
             stockPriceList = getStockPriceList(symbole)
             if len(stockPriceList) != 0:
                 runStockCalculation(symbole, stockPriceList)
-    '''
+                
+
 
 
 
