@@ -231,7 +231,7 @@ def getWikiData(pageId):
     wikiBaseURL = "https://en.wikipedia.org/w/api.php?"
     apiParam = "action=query&format=json&prop=extracts&exintro&explaintext&pageids="
     
-    resp = requests.get(url=wikiBaseURL+apiParam+str(pageId));
+    resp = requests.get(url=wikiBaseURL+apiParam+str(pageId), verify=False);
     searchJson = resp.json()
     wikiData = searchJson['query']['pages'][str(pageId)]
     wikiTitle = wikiData['title']
@@ -244,7 +244,7 @@ def getWikiData(pageId):
 def parseDate(dateTime):
     return datetime.datetime.strptime(dateTime, "%Y-%m-%d")
 
-def downloadStockPrice(symbol):
+def getStockPrice(symbol):
     apiParams = {  \
         'symbol':symbol,\
         'interval':STOCK_INTERVAL,\
@@ -260,50 +260,62 @@ def downloadStockPrice(symbol):
 
     dateTimeList = []
     dailyPriceList = []
-    dailyEmaList= []
     
     if stockData['status'] == 'ok':
         for dailyData in stockData['values']:
             dateTimeList.append( parseDate(dailyData['datetime']) )
             dailyPriceList.append( float(dailyData['close']) )
 
+    dateTimeList.reverse()
+    dailyPriceList.reverse()
+    return dateTimeList, dailyPriceList
+
+def getStockEma(symbol, interval):
     apiParams = {  \
         'symbol':symbol,\
         'interval':STOCK_INTERVAL,\
         'apikey':STOCK_API_KEY,\
         'start_date':STOCK_START_DATE,\
         'end_date':STOCK_END_DATE,\
-        'time_period':10
+        'time_period':interval
     }
-
-    time.sleep(1)
 
     apiURL = STOCK_API_URL + "ema"
 
     resp = requests.get(url=apiURL, params=apiParams, verify=False);
     stockData = resp.json() 
 
+    dailyEmaList = []
+
     if stockData['status'] == 'ok':
         for dailyData in stockData['values']:
             dailyEmaList.append(float(dailyData['ema']))
 
-    dateTimeList.reverse()
-    dailyPriceList.reverse()
     dailyEmaList.reverse()
-
-    return dateTimeList, dailyPriceList, dailyEmaList
+    return dailyEmaList
  
 def drawStockGraph(symbol):
-    dateTimeList, dailyPriceList, dailyEmaList = downloadStockPrice(symbol)
+    dateTimeList, dailyPriceList = getStockPrice(symbol)
+    time.sleep(0.5)
+    dailyEma5List = getStockEma(symbol, 5)
+    time.sleep(0.5) 
+    dailyEma10List = getStockEma(symbol, 10)
+    time.sleep(0.5)
+    dailyEma20List = getStockEma(symbol, 20)
+    
     dateTimeNP = np.array(dateTimeList)
     dailyPriceNP = np.array(dailyPriceList)
-    dailyEmaNP = np.array(dailyEmaList)
+    dailyEma5NP = np.array(dailyEma5List)
+    dailyEma10NP = np.array(dailyEma10List)
+    dailyEma20NP = np.array(dailyEma20List)
     
     fig, ax = plt.subplots()
-    ax.plot_date(dateTimeNP, dailyPriceNP,'b-', label='Daily Stock Price')
-    ax.plot_date(dateTimeNP, dailyEmaNP,'r-', label='Daily Stock EMA')
-    
-    ax.legend(loc='upper center', shadow=True, fontsize='x-large')
+    ax.plot_date(dateTimeNP, dailyPriceNP,'y-', label='Daily Stock Price')
+    ax.plot_date(dateTimeNP, dailyEma5NP,'r-', label='Daily Stock EMA (5)')
+    ax.plot_date(dateTimeNP, dailyEma10NP,'g-', label='Daily Stock EMA (10)')
+    ax.plot_date(dateTimeNP, dailyEma20NP,'b-', label='Daily Stock EMA (20)')
+
+    ax.legend(loc='upper center', shadow=True, fontsize='small')
     fmt = mdates.DateFormatter('%Y-%m-%d')
     ax.xaxis.set_major_formatter(fmt)
     fmt = mplcursors.cursor(hover=True)
@@ -314,8 +326,8 @@ def drawStockGraph(symbol):
     plt.xlabel("Time", fontsize=18)
     plt.ylabel("Stock Price", fontsize=18)
 
-    idx = np.argwhere(\
-        np.diff(np.sign(dailyPriceNP - dailyEmaNP))).flatten()
+    #idx = np.argwhere(\
+    #    np.diff(np.sign(dailyPriceNP - dailyEmaNP))).flatten()
     #plt.plot(dateTimeNP[idx], dailyPriceNP[idx], 'go')
     plt.show()
     
