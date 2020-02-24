@@ -259,15 +259,16 @@ def getStockPrice(symbol):
         'interval':STOCK_INTERVAL,\
         'apikey':STOCK_API_KEY,\
         'start_date':STOCK_START_DATE,\
-        'end_date':STOCK_END_DATE\
+        'end_date':STOCK_END_DATE,\
+        'format':"JSON"\
     }
     
     apiURL = STOCK_API_URL + "time_series?"
 
     resp = requests.get(url=apiURL, params=apiParams, verify=False);
-    stockData = json.loads(resp.content)
-    #stockData = resp.json()  
-
+    #stockData = json.loads(resp.content)
+    stockData = resp.json()  
+    
     dateTimeList = []
     dailyPriceList = []
     if stockData['status'] == 'ok':
@@ -286,14 +287,15 @@ def getStockEma(symbol, interval):
         'apikey':STOCK_API_KEY,\
         'start_date':STOCK_START_DATE,\
         'end_date':STOCK_END_DATE,\
-        'time_period':interval
+        'time_period':interval,\
+        'format':"JSON"\
     }
 
     apiURL = STOCK_API_URL + "ema"
 
     resp = requests.get(url=apiURL, params=apiParams, verify=False);
-    stockData = json.loads(resp.content)
-    #stockData = resp.json()  
+    #stockData = json.loads(resp.content)
+    stockData = resp.json()  
 
     dailyEmaList = []
 
