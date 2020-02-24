@@ -12,6 +12,7 @@ import time
 import mplcursors
 import json
 import warnings
+import pandas as pd
 
 warnings.filterwarnings("ignore")
 
@@ -31,6 +32,8 @@ STOCK_API_KEY = "e763a45b79a14e99983d22e08b10331a"
 STOCK_START_DATE = '2019-08-24'
 STOCK_END_DATE = '2020-02-24'
 STOCK_INTERVAL = '1day'
+
+df = pd.read_csv("stockSectorList.csv")
 
 def getStockPriceList(symbol, adjustment=ONE_YEAR):
     stockPath = "stockData/" + symbol + "/price.txt"
@@ -117,7 +120,8 @@ def getStockGrowthRateRanking(adjustment=ONE_YEAR):
             stockSymbol = stockDataTokens[1]
             stockPriceList = getStockPriceList(stockSymbol, adjustment)
             if len(stockPriceList) != 0:
-                stockKey = stockName + " (" + stockSymbol + ")"
+                stockKey = stockSymbol
+                #stockKey = stockName + " (" + stockSymbol + ")"
                 stockGrowthList[stockKey] = getStockGrowthRate(stockPriceList)
     
     sortedStockGrowthList = \
@@ -133,8 +137,7 @@ def printStockGrowthRateRanking(displayLimit):
     counter = 0
     for key, val in sortedStockGrowthList.items():
         counter+=1
-        print(str(counter) + ".\t" + key + ":" + str(val) + "%" +\
-              " - $" + STOCK_PRICE_LIST[key])
+        print(str(counter) + ".\t" + key + ":" + str(val))
         if counter >= displayLimit:
             break
 
@@ -172,8 +175,8 @@ def recommendedStockList(topRank=100):
     printBorder("Recommendation")
     for stock in rtnList:
         counter += 1
-        print(str(counter) + "\t" + stock +\
-              " - $" + STOCK_PRICE_LIST[stock])
+        print(str(counter) + "\t" + stock + "\t" +\
+        df.loc[df['Symbol'] == stock ].iloc[0]['GICS Sector'])
     printBorder()
 
 def initStockList():
@@ -339,6 +342,10 @@ def drawStockGraph(symbol):
     plt.show()
 
 if __name__ == "__main__":
+    #print(df['GICS Sector'].unique())
+    #print(df.loc[df['GICS Sector'] == 'Information Technology' ][0:10])
+    #print(df.loc[df['Symbol'] == 'MMM' ].iloc[0]['GICS Sector'])
+    
     initStockList()
     while True:
         userInput = input("Stock@:")
@@ -360,7 +367,7 @@ if __name__ == "__main__":
             stockPriceList = getStockPriceList(symbole)
             if len(stockPriceList) != 0:
                 runStockCalculation(symbole, stockPriceList)
-                
+           
 
 
 
