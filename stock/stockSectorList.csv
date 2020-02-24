@@ -1,4 +1,4 @@
-Symbol,Security,GICS Sector,GICS Sub Industry,Headquarters Location,Date first added,CIK,Founded
+Symbol,Security,GICSÂ Sector,GICS Sub Industry,Headquarters Location,Date first added,CIK,Founded
 MMM,3M Company,Industrials,Industrial Conglomerates,"St. Paul, Minnesota",,66740,1902
 ABT,Abbott Laboratories,Health Care,Health Care Equipment,"North Chicago, Illinois",3/31/1964,1800,1888
 ABBV,AbbVie Inc.,Health Care,Pharmaceuticals,"North Chicago, Illinois",12/31/2012,1551152,2013 (1888)
@@ -27,7 +27,7 @@ GOOGL,Alphabet Inc Class A,Communication Services,Interactive Media & Services,"
 GOOG,Alphabet Inc Class C,Communication Services,Interactive Media & Services,"Mountain View, California",4/3/2006,1652044,1998
 MO,Altria Group Inc,Consumer Staples,Tobacco,"Richmond, Virginia",,764180,1985
 AMZN,Amazon.com Inc.,Consumer Discretionary,Internet & Direct Marketing Retail,"Seattle, Washington",11/18/2005,1018724,1994
-AMCR,Amcor plc,Materials,Paper Packaging,"Warmley, Bristol, United Kingdom",6/7/2019,1748790,2019 (1860)
+AMCR,Amcor plc,Materials,Paper Packaging,"Warmley,Â Bristol, United Kingdom",6/7/2019,1748790,2019 (1860)
 AEE,Ameren Corp,Utilities,Multi-Utilities,"St. Louis, Missouri",9/19/1991,1002910,1902
 AAL,American Airlines Group,Industrials,Airlines,"Fort Worth, Texas",3/23/2015,6201,1934
 AEP,American Electric Power,Utilities,Electric Utilities,"Columbus, Ohio",,4904,1906
@@ -43,7 +43,7 @@ APH,Amphenol Corp,Information Technology,Electronic Components,"Wallingford, Con
 ADI,"Analog Devices, Inc.",Information Technology,Semiconductors,"Norwood, Massachusetts",10/12/1999,6281,1965
 ANSS,ANSYS,Information Technology,Application Software,"Canonsburg, Pennsylvania",6/19/2017,1013462,1969
 ANTM,Anthem,Health Care,Managed Health Care,"Indianapolis, Indiana",7/25/2002,1156039,2014 (1940s)
-AON,Aon plc,Financials,Insurance Brokers,"London, United Kingdom",4/23/1996,315293,1982 (1919)
+AON,Aon plc,Financials,Insurance Brokers,"London,Â United Kingdom",4/23/1996,315293,1982 (1919)
 AOS,A.O. Smith Corp,Industrials,Building Products,"Milwaukee, Wisconsin",7/26/2017,91142,1916
 APA,Apache Corporation,Energy,Oil & Gas Exploration & Production,"Houston, Texas",7/28/1997,6769,1954
 AIV,Apartment Investment & Management,Real Estate,Residential REITs,"Denver, Colorado",3/14/2003,922864,1994 (1975)
@@ -246,7 +246,7 @@ HBAN,Huntington Bancshares,Financials,Regional Banks,"Columbus, Ohio",,49196,186
 HII,Huntington Ingalls Industries,Industrials,Aerospace & Defense,"Newport News, Virginia",1/3/2018,1501585,
 IEX,IDEX Corporation,Industrials,Industrial Machinery,"Lake Forest, Illinois",8/9/2019,832101,1988
 IDXX,IDEXX Laboratories,Health Care,Health Care Equipment,"Westbrook, Maine",1/5/2017,874716,
-INFO,IHS Markit Ltd.,Industrials,Research & Consulting Services,"London, United Kingdom",6/2/2017,1598014,
+INFO,IHS Markit Ltd.,Industrials,Research & Consulting Services,"London,Â United Kingdom",6/2/2017,1598014,
 ITW,Illinois Tool Works,Industrials,Industrial Machinery,"Glenview, Illinois",2/28/1986,49826,
 ILMN,Illumina Inc,Health Care,Life Sciences Tools & Services,"San Diego, California",11/19/2015,1110803,
 IR,Ingersoll-Rand PLC,Industrials,Industrial Machinery,"Dublin, Ireland",11/17/2010,1466258,
@@ -280,7 +280,7 @@ KIM,Kimco Realty,Real Estate,Retail REITs,"New Hyde Park, New York",4/4/2006,879
 KMI,Kinder Morgan,Energy,Oil & Gas Storage & Transportation,"Houston, Texas",5/25/2012,1506307,
 KLAC,KLA Corporation,Information Technology,Semiconductor Equipment,"Milpitas, California",,319201,1975/1977 (1997)
 KSS,Kohl's Corp.,Consumer Discretionary,General Merchandise Stores,"Menomonee Falls, Wisconsin",,885639,1962
-KHC,Kraft Heinz Co,Consumer Staples,Packaged Foods & Meats,"Chicago, Illinois; Pittsburgh, Pennsylvania",7/6/2015,1637459,2015 (1869)
+KHC,Kraft Heinz Co,Consumer Staples,Packaged Foods & Meats,"Chicago, Illinois;Â Pittsburgh, Pennsylvania",7/6/2015,1637459,2015 (1869)
 KR,Kroger Co.,Consumer Staples,Food Retail,"Cincinnati, Ohio",,56873,1883
 LB,L Brands Inc.,Consumer Discretionary,Apparel Retail,"Columbus, Ohio",9/30/1983,701985,
 LHX,L3Harris Technologies,Industrials,Aerospace & Defense,"Melbourne, Florida",,202058,
@@ -314,7 +314,7 @@ MKC,McCormick & Co.,Consumer Staples,Packaged Foods & Meats,"Hunt Valley, Maryla
 MXIM,Maxim Integrated Products Inc,Information Technology,Semiconductors,"San Jose, California",12/3/2018,743316,1983
 MCD,McDonald's Corp.,Consumer Discretionary,Restaurants,"Chicago, Illinois",6/30/1970,63908,1940
 MCK,McKesson Corp.,Health Care,Health Care Distributors,"Irving, Texas",,927653,1833
-MDT,Medtronic plc,Health Care,Health Care Equipment,"Dublin, Ireland",10/31/1986,1613103,1949
+MDT,Medtronic plc,Health Care,Health Care Equipment,"Dublin,Â Ireland",10/31/1986,1613103,1949
 MRK,Merck & Co.,Health Care,Pharmaceuticals,"Kenilworth, New Jersey",,310158,1891
 MET,MetLife Inc.,Financials,Life & Health Insurance,"New York, New York",,1099219,1868
 MTD,Mettler Toledo,Health Care,Life Sciences Tools & Services,"Columbus, Ohio",9/6/2016,1037646,
@@ -332,7 +332,7 @@ MS,Morgan Stanley,Financials,Investment Banking & Brokerage,"New York, New York"
 MOS,The Mosaic Company,Materials,Fertilizers & Agricultural Chemicals,"Tampa, Florida",9/26/2011,1285785,
 MSI,Motorola Solutions Inc.,Information Technology,Communications Equipment,"Chicago, Illinois",,68505,1928 (2011)
 MSCI,MSCI Inc,Financials,Financial Exchanges & Data,"New York, New York",4/4/2018,1408198,
-MYL,Mylan N.V.,Health Care,Pharmaceuticals,"Amsterdam, Netherlands",4/23/2004,1623613,1961
+MYL,Mylan N.V.,Health Care,Pharmaceuticals,"Amsterdam,Â Netherlands",4/23/2004,1623613,1961
 NDAQ,"Nasdaq, Inc.",Financials,Financial Exchanges & Data,"New York, New York",10/22/2008,1120193,
 NOV,National Oilwell Varco Inc.,Energy,Oil & Gas Equipment & Services,"Houston, Texas",3/14/2005,1021860,
 NTAP,NetApp,Information Technology,"Technology Hardware, Storage & Peripherals","Sunnyvale, California",6/25/1999,1002047,
@@ -412,7 +412,7 @@ RCL,Royal Caribbean Cruises Ltd,Consumer Discretionary,"Hotels, Resorts & Cruise
 SPGI,"S&P Global, Inc.",Financials,Financial Exchanges & Data,"New York, New York",,64040,
 CRM,Salesforce.com,Information Technology,Application Software,"San Francisco, California",9/15/2008,1108524,
 SBAC,SBA Communications,Real Estate,Specialized REITs,"Boca Raton, Florida",9/1/2017,1034054,
-SLB,Schlumberger Ltd.,Energy,Oil & Gas Equipment & Services,"Curaçao, Kingdom of the Netherlands",3/31/1965,87347,1926
+SLB,Schlumberger Ltd.,Energy,Oil & Gas Equipment & Services,"CuraÃ§ao,Â Kingdom of the Netherlands",3/31/1965,87347,1926
 STX,Seagate Technology,Information Technology,"Technology Hardware, Storage & Peripherals","Dublin, Ireland",7/2/2012,1137789,
 SEE,Sealed Air,Materials,Paper Packaging,"Elmwood Park, New Jersey",,1012100,
 SRE,Sempra Energy,Utilities,Multi-Utilities,"San Diego, California",,1032208,
@@ -439,7 +439,7 @@ TTWO,Take-Two Interactive,Communication Services,Interactive Home Entertainment,
 TPR,"Tapestry, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods","New York, New York",,1116132,2017
 TGT,Target Corp.,Consumer Discretionary,General Merchandise Stores,"Minneapolis, Minnesota",12/31/1976,27419,
 TEL,TE Connectivity Ltd.,Information Technology,Electronic Manufacturing Services,"Schaffhausen, Switzerland",10/17/2011,1385157,
-FTI,TechnipFMC,Energy,Oil & Gas Equipment & Services,"London, United Kingdom",6/5/2009,1681459,2017 (1958)
+FTI,TechnipFMC,Energy,Oil & Gas Equipment & Services,"London,Â United Kingdom",6/5/2009,1681459,2017 (1958)
 TFX,Teleflex,Health Care,Health Care Equipment,"Wayne, Pennsylvania",1/18/2019,96943,1943
 TXN,Texas Instruments,Information Technology,Semiconductors,"Dallas, Texas",,97476,1930
 TXT,Textron Inc.,Industrials,Aerospace & Defense,"Providence, Rhode Island",12/31/1978,217346,
