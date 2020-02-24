@@ -10,6 +10,10 @@ import matplotlib.ticker as mticker
 import datetime
 import time
 import mplcursors
+import json
+import warnings
+
+warnings.filterwarnings("ignore")
 
 MIN_COUNT = 500
 ONE_MONTH = 22
@@ -200,7 +204,8 @@ def searchCompanyInWiki(key):
     }
     
     resp = requests.get(url=wikiBaseURL, params=apiParams, verify=False);
-    searchJson = resp.json()
+    searchJson = json.loads(resp.content)
+    #searchJson = resp.json() 
     searchResultList = searchJson['query']['search']
     if len(searchResultList) == 0:
         print("")
@@ -232,7 +237,8 @@ def getWikiData(pageId):
     apiParam = "action=query&format=json&prop=extracts&exintro&explaintext&pageids="
     
     resp = requests.get(url=wikiBaseURL+apiParam+str(pageId), verify=False);
-    searchJson = resp.json()
+    searchJson = json.loads(resp.content)
+    #searchJson = resp.json()  
     wikiData = searchJson['query']['pages'][str(pageId)]
     wikiTitle = wikiData['title']
     wikiText = wikiData['extract']
@@ -256,11 +262,11 @@ def getStockPrice(symbol):
     apiURL = STOCK_API_URL + "time_series?"
 
     resp = requests.get(url=apiURL, params=apiParams, verify=False);
-    stockData = resp.json()  
+    stockData = json.loads(resp.content)
+    #stockData = resp.json()  
 
     dateTimeList = []
     dailyPriceList = []
-    
     if stockData['status'] == 'ok':
         for dailyData in stockData['values']:
             dateTimeList.append( parseDate(dailyData['datetime']) )
@@ -283,7 +289,8 @@ def getStockEma(symbol, interval):
     apiURL = STOCK_API_URL + "ema"
 
     resp = requests.get(url=apiURL, params=apiParams, verify=False);
-    stockData = resp.json() 
+    stockData = json.loads(resp.content)
+    #stockData = resp.json()  
 
     dailyEmaList = []
 
@@ -330,7 +337,7 @@ def drawStockGraph(symbol):
     #    np.diff(np.sign(dailyPriceNP - dailyEmaNP))).flatten()
     #plt.plot(dateTimeNP[idx], dailyPriceNP[idx], 'go')
     plt.show()
-    
+
 if __name__ == "__main__":
     initStockList()
     while True:
