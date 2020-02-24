@@ -24,8 +24,8 @@ global STOCK_PRICE_LIST
 
 STOCK_API_URL = "https://api.twelvedata.com/"
 STOCK_API_KEY = "e763a45b79a14e99983d22e08b10331a"
-STOCK_START_DATE = '2019-08-21'
-STOCK_END_DATE = '2020-02-21'
+STOCK_START_DATE = '2019-08-24'
+STOCK_END_DATE = '2020-02-24'
 STOCK_INTERVAL = '1day'
 
 def getStockPriceList(symbol, adjustment=ONE_YEAR):
@@ -199,7 +199,7 @@ def searchCompanyInWiki(key):
         'srsearch':urllib.parse.quote(key)
     }
     
-    resp = requests.get(url=wikiBaseURL, params=apiParams);
+    resp = requests.get(url=wikiBaseURL, params=apiParams, verify=False);
     searchJson = resp.json()
     searchResultList = searchJson['query']['search']
     if len(searchResultList) == 0:
@@ -255,7 +255,7 @@ def downloadStockPrice(symbol):
     
     apiURL = STOCK_API_URL + "time_series?"
 
-    resp = requests.get(url=apiURL, params=apiParams);
+    resp = requests.get(url=apiURL, params=apiParams, verify=False);
     stockData = resp.json()  
 
     dateTimeList = []
@@ -280,7 +280,7 @@ def downloadStockPrice(symbol):
 
     apiURL = STOCK_API_URL + "ema"
 
-    resp = requests.get(url=apiURL, params=apiParams);
+    resp = requests.get(url=apiURL, params=apiParams, verify=False);
     stockData = resp.json() 
 
     if stockData['status'] == 'ok':
@@ -316,7 +316,7 @@ def drawStockGraph(symbol):
 
     idx = np.argwhere(\
         np.diff(np.sign(dailyPriceNP - dailyEmaNP))).flatten()
-    plt.plot(dateTimeNP[idx], dailyPriceNP[idx], 'go')
+    #plt.plot(dateTimeNP[idx], dailyPriceNP[idx], 'go')
     plt.show()
     
 if __name__ == "__main__":
