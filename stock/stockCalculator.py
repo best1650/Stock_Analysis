@@ -156,6 +156,7 @@ def getTopStockList(sortedStockGrowthList, topRank):
             break
     return topStockList
 
+
 def recommendedStockList(topRank=100):
     global STOCK_PRICE_LIST
     
@@ -176,6 +177,8 @@ def recommendedStockList(topRank=100):
     for stock in rtnList:
         counter += 1
         print(str(counter) + "\t" + stock + "\t" +\
+        (df.loc[df['Symbol'] == stock ].iloc[0]['Security'] + " "*30)[:30]\
+        + "\t" +\
         df.loc[df['Symbol'] == stock ].iloc[0]['GICS Sector'])
     printBorder()
 
