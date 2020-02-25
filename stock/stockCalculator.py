@@ -29,8 +29,8 @@ global STOCK_PRICE_LIST
 
 STOCK_API_URL = "https://api.twelvedata.com/"
 STOCK_API_KEY = "e763a45b79a14e99983d22e08b10331a"
-STOCK_START_DATE = '2019-08-24'
-STOCK_END_DATE = '2020-02-24'
+STOCK_START_DATE = '2019-08-25'
+STOCK_END_DATE = '2020-02-25'
 STOCK_INTERVAL = '1day'
 
 df = pd.read_csv("stockSectorList.csv")
@@ -258,12 +258,12 @@ def parseDate(dateTime):
 
 def getStockPrice(symbol):
     apiParams = {  \
+        'format':"JSON",\
         'symbol':symbol,\
         'interval':STOCK_INTERVAL,\
         'apikey':STOCK_API_KEY,\
         'start_date':STOCK_START_DATE,\
-        'end_date':STOCK_END_DATE,\
-        'format':"JSON"\
+        'end_date':STOCK_END_DATE\
     }
     
     apiURL = STOCK_API_URL + "time_series?"
