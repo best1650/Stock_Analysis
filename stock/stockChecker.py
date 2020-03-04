@@ -76,10 +76,10 @@ def stockTraining(stockPriceList):
 
     for stockIdx, stockPrice in enumerate(stockPriceList):
         isDownHill = False
-        print(str(stockIdx) + " - ", end='')
+        #print(str(stockIdx) + " - ", end='')
         if stockPrice > maxPrice:
             if  (maxPrice == 0) or (((stockPrice - maxPrice) / maxPrice) > 0.5):
-                print("New max price")
+                #print("New max price")
                 maxPrice = stockPrice
                 maxPriceIdx = stockIdx
                 downHillCounter = 0
@@ -90,10 +90,10 @@ def stockTraining(stockPriceList):
             isDownHill = True
 
         if isDownHill:
-            print("Down hill")
+            #print("Down hill")
             downHillCounter += 1
             if downHillCounter > DOWN_HILL_TIME_LIMIT:
-                print("Test time")
+                #print("Test time")
                 preStockPrice = stockPriceList[(stockIdx-1)]
                 if stockPrice > preStockPrice:
                     return stockIdx, stockPrice
@@ -136,12 +136,22 @@ def stockTesting(stockList):
         drawGraph(symbol, stockPriceList, lowIdx, lowPrice)
         #drawGraph(symbol, stockPriceList[:x], stockEmaList[:x])
 
- 
+def startStockChecker():
+    stockList = ["INTC", "AMD", "AMZN", "NVDA"]
+    while(True):
+        for symbol in stockList:
+            stockPriceList = downloadStockPriceList(symbol)
+            lowIdx, lowPrice = stockTraining(stockPriceList)
+            print("[%s] Stock:%s -> Low Price:%.2f" % (datetime.datetime.today().strftime("%Y-%m-%d %H:%M:%S"), symbol, lowPrice))
+        time.sleep(60)
+        print("-" *30) 
+
 if __name__ == "__main__":
     #stockList = ["AMD", "LRCX", "NVDA", "MSFT", "INTC", "NOW", "AMZN", "AAPL", "TSLA", "PYPL", "MA", "V", "DAL", "UAL", "COST", "WMT"]
-    stockList = ["INTC"]
-    stockTesting(stockList)
-    print("Complete!")
+    #stockList = ["INTC", "AMD"]
+    #stockTesting(stockList)
+    #print("Complete!")
+    startStockChecker()
 
     
     
