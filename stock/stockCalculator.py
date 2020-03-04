@@ -29,8 +29,8 @@ global STOCK_PRICE_LIST
 
 STOCK_API_URL = "https://api.twelvedata.com/"
 STOCK_API_KEY = "e763a45b79a14e99983d22e08b10331a"
-STOCK_START_DATE = '2019-08-25'
-STOCK_END_DATE = '2020-02-25'
+STOCK_START_DATE = '2019-08-27'
+STOCK_END_DATE = '2020-03-02'
 STOCK_INTERVAL = '1day'
 
 df = pd.read_csv("stockSectorList.csv")
@@ -175,11 +175,12 @@ def recommendedStockList(topRank=100):
     counter = 0
     printBorder("Recommendation")
     for stock in rtnList:
-        counter += 1
-        print(str(counter) + "\t" + stock + "\t" +\
-        (df.loc[df['Symbol'] == stock ].iloc[0]['Security'] + " "*30)[:30]\
-        + "\t" +\
-        df.loc[df['Symbol'] == stock ].iloc[0]['GICS Sector'])
+        if (df.loc[df['Symbol'] == stock ].iloc[0]['GICS Sector'] == "Information Technology"):
+            counter += 1
+            print(str(counter) + "\t" + stock + "\t" +\
+            (df.loc[df['Symbol'] == stock ].iloc[0]['Security'] + " "*30)[:30]\
+            + "\t" +\
+            df.loc[df['Symbol'] == stock ].iloc[0]['GICS Sector'])
     printBorder()
 
 def initStockList():
