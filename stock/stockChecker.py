@@ -130,8 +130,6 @@ def stockTesting(stockList):
     for stock in stockList:
         symbol = stock
         stockPriceList = downloadStockPriceList(symbol)
-        #stockEmaList = downloadStockEmaList(symbol)
-        #for x in range (0, len(stockPriceList), 5):
         lowIdx, lowPrice = stockTraining(stockPriceList)
         drawGraph(symbol, stockPriceList, lowIdx, lowPrice)
         #drawGraph(symbol, stockPriceList[:x], stockEmaList[:x])
