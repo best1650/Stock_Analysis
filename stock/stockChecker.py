@@ -17,8 +17,8 @@ import pandas as pd
 warnings.filterwarnings("ignore")
 
 DATE_FORMAT = "%Y-%m-%d"
-#TODAY = datetime.datetime.today()
-TODAY = TODAY = datetime.datetime.today() - datetime.timedelta(days=1)
+TODAY = datetime.datetime.today()
+#TODAY = TODAY = datetime.datetime.today() - datetime.timedelta(days=1)
 STOCK_API_URL = "https://api.twelvedata.com/"
 STOCK_API_KEY = "e763a45b79a14e99983d22e08b10331a"
 STOCK_START_DATE = TODAY.strftime(DATE_FORMAT)
@@ -108,7 +108,8 @@ def drawGraph(symbol, stockPriceList, lowIdx, lowPrice):
     plt.xlabel("Time", fontsize=18)
     plt.ylabel("Stock Price", fontsize=18)
     ax.plot(x, stockPriceList, 'r-')
-    plt.plot(lowIdx, lowPrice, 'go')
+    if lowIdx != -1:
+        plt.plot(lowIdx, lowPrice, 'go')
     #plt.hlines((lowPrice * 1.015), 0, len(stockPriceList), colors = 'k', label = str(lowPrice))
     fmt = mplcursors.cursor(hover=True)
     plt.show()
@@ -145,7 +146,7 @@ def startStockChecker(stockList):
 
 if __name__ == "__main__":
     #stockList = ["AMD", "LRCX", "NVDA", "MSFT", "INTC", "NOW", "AMZN", "AAPL", "TSLA", "PYPL", "MA", "V", "DAL", "UAL", "COST", "WMT"]
-    stockList = ["INTC", "AMD", "MFST", "PYPL"]
+    stockList = ["INTC", "AMD", "MSFT", "PYPL"]
     stockTesting(stockList)
     #startStockChecker(stockList)
 
