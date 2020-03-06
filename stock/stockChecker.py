@@ -17,8 +17,8 @@ import pandas as pd
 warnings.filterwarnings("ignore")
 
 DATE_FORMAT = "%Y-%m-%d"
-TODAY = datetime.datetime.today()
-#TODAY = datetime.datetime.strptime("2020-02-26", DATE_FORMAT)
+#TODAY = datetime.datetime.today()
+TODAY = TODAY = datetime.datetime.today() - datetime.timedelta(days=1)
 STOCK_API_URL = "https://api.twelvedata.com/"
 STOCK_API_KEY = "e763a45b79a14e99983d22e08b10331a"
 STOCK_START_DATE = TODAY.strftime(DATE_FORMAT)
@@ -134,8 +134,7 @@ def stockTesting(stockList):
         drawGraph(symbol, stockPriceList, lowIdx, lowPrice)
         #drawGraph(symbol, stockPriceList[:x], stockEmaList[:x])
 
-def startStockChecker():
-    stockList = ["INTC", "AMD", "AMZN", "NVDA"]
+def startStockChecker(stockList):
     while(True):
         for symbol in stockList:
             stockPriceList = downloadStockPriceList(symbol)
@@ -146,10 +145,9 @@ def startStockChecker():
 
 if __name__ == "__main__":
     #stockList = ["AMD", "LRCX", "NVDA", "MSFT", "INTC", "NOW", "AMZN", "AAPL", "TSLA", "PYPL", "MA", "V", "DAL", "UAL", "COST", "WMT"]
-    #stockList = ["INTC", "AMD"]
-    #stockTesting(stockList)
-    #print("Complete!")
-    startStockChecker()
+    stockList = ["INTC", "AMD", "MFST", "PYPL"]
+    stockTesting(stockList)
+    #startStockChecker(stockList)
 
     
     
