@@ -21,8 +21,10 @@ TODAY = datetime.datetime.today()
 #TODAY = TODAY = datetime.datetime.today() - datetime.timedelta(days=1)
 STOCK_API_URL = "https://api.twelvedata.com/"
 STOCK_API_KEY = "e763a45b79a14e99983d22e08b10331a"
-STOCK_START_DATE = TODAY.strftime(DATE_FORMAT)
-STOCK_END_DATE = (TODAY + datetime.timedelta(days=1)).strftime(DATE_FORMAT)
+#STOCK_START_DATE = TODAY.strftime(DATE_FORMAT)
+#STOCK_END_DATE = (TODAY + datetime.timedelta(days=1)).strftime(DATE_FORMAT)
+STOCK_START_DATE = "2020-03-06"
+STOCK_END_DATE = "2020-03-07"
 STOCK_INTERVAL = '1min'
 DOWN_HILL_TIME_LIMIT = 19
 UP_HILL_TIME_LIMIT = 3
@@ -76,16 +78,16 @@ def stockTraining(stockPriceList):
 
     for stockIdx, stockPrice in enumerate(stockPriceList):
         isDownHill = False
-        #print(str(stockIdx) + " - ", end='')
+        #print(str(stockIdx) + " - $" + str(stockPrice) + " - Max $" + str(maxPrice) + " - ", end='')
         if stockPrice > maxPrice:
-            if  (maxPrice == 0) or (((stockPrice - maxPrice) / maxPrice) > 0.5):
-                #print("New max price")
-                maxPrice = stockPrice
-                maxPriceIdx = stockIdx
-                downHillCounter = 0
-                upHillCounter = 0
-            else:
-                isDownHill = True
+            #if  (maxPrice == 0) or (((stockPrice - maxPrice) / maxPrice) > 0.5):
+            #print("New max price")
+            maxPrice = stockPrice
+            maxPriceIdx = stockIdx
+            downHillCounter = 0
+            upHillCounter = 0
+            #else:
+            #   isDownHill = True
         else:
             isDownHill = True
 
@@ -100,7 +102,7 @@ def stockTraining(stockPriceList):
 
     return -1, 0.0
 
-def drawGraph(symbol, stockPriceList, lowIdx, lowPrice):
+def drawGraph(symbol, stockPriceList, lowIdx, lowPrice, isSave):
     fig, ax = plt.subplots()
     x = list(range(0, len(stockPriceList)))
     fig.set_size_inches(15,8)
@@ -110,9 +112,13 @@ def drawGraph(symbol, stockPriceList, lowIdx, lowPrice):
     ax.plot(x, stockPriceList, 'r-')
     if lowIdx != -1:
         plt.plot(lowIdx, lowPrice, 'go')
-    #plt.hlines((lowPrice * 1.015), 0, len(stockPriceList), colors = 'k', label = str(lowPrice))
+
+    plt.hlines((lowPrice + (lowPrice / 50.0)), 0, len(stockPriceList), colors = 'k', label = str(lowPrice))
     fmt = mplcursors.cursor(hover=True)
-    plt.show()
+    if isSave:
+        plt.savefig('stockGraph/' + STOCK_START_DATE + '/' + symbol+ ".png")
+    else:
+        plt.show()
 
 def drawGraphWithEMA(symbol, stockPriceList, stockEmaList):
     fig, ax = plt.subplots()
@@ -127,13 +133,16 @@ def drawGraphWithEMA(symbol, stockPriceList, stockEmaList):
     fmt = mplcursors.cursor(hover=True)
     plt.show()
 
-def stockTesting(stockList):
+def stockReview(stockList, isSave):
+    if isSave:
+        directory = 'stockGraph/' + STOCK_START_DATE
+        if not os.path.exists(directory):
+            os.makedirs(directory)        
     for stock in stockList:
         symbol = stock
         stockPriceList = downloadStockPriceList(symbol)
         lowIdx, lowPrice = stockTraining(stockPriceList)
-        drawGraph(symbol, stockPriceList, lowIdx, lowPrice)
-        #drawGraph(symbol, stockPriceList[:x], stockEmaList[:x])
+        drawGraph(symbol, stockPriceList, lowIdx, lowPrice, isSave)
 
 def startStockChecker(stockList):
     while(True):
@@ -146,9 +155,11 @@ def startStockChecker(stockList):
 
 if __name__ == "__main__":
     #stockList = ["AMD", "LRCX", "NVDA", "MSFT", "INTC", "NOW", "AMZN", "AAPL", "TSLA", "PYPL", "MA", "V", "DAL", "UAL", "COST", "WMT"]
-    stockList = ["INTC", "AMD", "MSFT", "PYPL"]
-    stockTesting(stockList)
+    #stockList = ["INTC", "AMD", "MSFT", "PYPL", "WMT", "AAPL", "MA", "NVDA", "GOOG", "TSLA", "V", "LRCX", "NFLX"]
+    stockList = ["INO"]
+    stockReview(stockList, False)
     #startStockChecker(stockList)
+    print("Completed!")
 
     
     
