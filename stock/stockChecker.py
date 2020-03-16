@@ -21,10 +21,10 @@ TODAY = datetime.datetime.today()
 #TODAY = TODAY = datetime.datetime.today() - datetime.timedelta(days=1)
 STOCK_API_URL = "https://api.twelvedata.com/"
 STOCK_API_KEY = "e763a45b79a14e99983d22e08b10331a"
-#STOCK_START_DATE = TODAY.strftime(DATE_FORMAT)
-#STOCK_END_DATE = (TODAY + datetime.timedelta(days=1)).strftime(DATE_FORMAT)
-STOCK_START_DATE = "2020-03-06"
-STOCK_END_DATE = "2020-03-07"
+STOCK_START_DATE = TODAY.strftime(DATE_FORMAT)
+STOCK_END_DATE = (TODAY + datetime.timedelta(days=1)).strftime(DATE_FORMAT)
+#STOCK_START_DATE = "2020-03-06"
+#STOCK_END_DATE = "2020-03-07"
 STOCK_INTERVAL = '1min'
 DOWN_HILL_TIME_LIMIT = 19
 UP_HILL_TIME_LIMIT = 3
@@ -113,7 +113,7 @@ def drawGraph(symbol, stockPriceList, lowIdx, lowPrice, isSave):
     if lowIdx != -1:
         plt.plot(lowIdx, lowPrice, 'go')
 
-    plt.hlines((lowPrice + (lowPrice / 50.0)), 0, len(stockPriceList), colors = 'k', label = str(lowPrice))
+    plt.hlines((lowPrice + (lowPrice / 60.0)), 0, len(stockPriceList), colors = 'k', label = str(lowPrice))
     fmt = mplcursors.cursor(hover=True)
     if isSave:
         plt.savefig('stockGraph/' + STOCK_START_DATE + '/' + symbol+ ".png")
@@ -155,8 +155,8 @@ def startStockChecker(stockList):
 
 if __name__ == "__main__":
     #stockList = ["AMD", "LRCX", "NVDA", "MSFT", "INTC", "NOW", "AMZN", "AAPL", "TSLA", "PYPL", "MA", "V", "DAL", "UAL", "COST", "WMT"]
-    #stockList = ["INTC", "AMD", "MSFT", "PYPL", "WMT", "AAPL", "MA", "NVDA", "GOOG", "TSLA", "V", "LRCX", "NFLX"]
-    stockList = ["INO"]
+    stockList = ["INTC", "AMD", "MSFT", "PYPL", "WMT", "AAPL", "MA", "NVDA", "GOOG", "TSLA", "V", "LRCX", "NFLX"]
+    #stockList = ["IBIO"]
     stockReview(stockList, False)
     #startStockChecker(stockList)
     print("Completed!")
