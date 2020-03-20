@@ -155,10 +155,10 @@ def startStockChecker(stockList):
 
 if __name__ == "__main__":
     #stockList = ["AMD", "LRCX", "NVDA", "MSFT", "INTC", "NOW", "AMZN", "AAPL", "TSLA", "PYPL", "MA", "V", "DAL", "UAL", "COST", "WMT"]
-    stockList = ["INTC", "AMD", "MSFT", "PYPL", "WMT", "AAPL", "MA", "NVDA", "GOOG", "TSLA", "V", "LRCX", "NFLX"]
+    stockList = ["INTC", "AMD", "MSFT", ]
     #stockList = ["IBIO"]
-    stockReview(stockList, False)
-    #startStockChecker(stockList)
+    #stockReview(stockList, False)
+    startStockChecker(stockList)
     print("Completed!")
 
     

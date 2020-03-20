@@ -155,11 +155,10 @@ def profitSimulation(stockPriceList, expectDropRate, sellDayLimit):
                 
 if __name__ == "__main__":
     #symbol_list = ["INTC", "MSFT", "AMD", "AMZN", "NVDA", "AAPL", "PYPL", "MA", "V", "GOOG", "PA"]
-    symbol_list = ["INTC"]
+    symbol_list = ["BAC"]
     for symbol in symbol_list:
         print("Company:" + symbol)
         stockPriceList = downloadStockPriceList(symbol)
-        #findStockPattern(stockPriceList, 0.005, 10)
-        #findStockDropPattern(stockPriceList, 0.005)
-        profitSimulation(stockPriceList, 0.008, 30)
-    print("Completed!")
+        profitSimulation(stockPriceList, 0.01, 30)
+    print("[%s] Completed!" %(TODAY))
+
